@@ -1,0 +1,17 @@
+* Features in Development
+* Requested Features
+
+* Ideas
+** Search through expositions
+** Undo button
+** Markdown in text/html tools
+* Problems
+** Collaboration tab needs explanation text about what is what. :UI:
+** Supervisor permissions behave weird on publication etc.
+** Objects outside of visual field.
+** No quick way for supervisor to delete/manage all their notes.
+** Notes list
+** Private note
+** No duplicate names for expositions
+* Bugs
+* Releases
