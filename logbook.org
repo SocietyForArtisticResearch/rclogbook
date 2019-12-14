@@ -1,4 +1,5 @@
 #+EXPORT_FILE_NAME: index.html
+#+AUTHOR: RC Team
 
 * Features in Development
 * Requested Features
