@@ -1,6 +1,8 @@
 #+EXPORT_FILE_NAME: index.html
 #+AUTHOR: RC Team
 
+# @Luc : could you add instructions in README how to generate the HTML? I guess through org export?
+
 * Features in Development
 * Requested Features
 
@@ -18,3 +20,9 @@
 ** No duplicate names for expositions
 * Bugs
 * Releases
+** Common user confusions:
+- Adding a page, not showing up in Table of Contents
+- Work / Exposition
+- Video tool / Video embed
+- PDF tool : Preview / PDF fields mixup
+
