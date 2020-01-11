@@ -4,7 +4,12 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 #+OPTIONS:   H:4 num:nil toc:2
 
+
 * RC Logbook
+
+This file contains information on the current state of RC developments
+and lists ideas, features, bugs and problems.
+
 ** Features in Development
 ** Requested Features
 
@@ -13,14 +18,23 @@
 *** SARA feed on front page
 *** Undo button
 *** Markdown in text/html tools
+*** Keywords: 
+- Make keywords mandatory on publication
+- Have a combination of closed and open vocabularies
 ** Problems
 *** Collaboration tab needs explanation text about what is what.         :UI:
 *** Supervisor permissions behave weird on publication etc.
 *** Objects outside of visual field.
 *** No quick way for supervisor to delete/manage all their notes.
-*** [#B] Notes list
+*** Notes list
 *** Private note
 *** No duplicate names for expositions
+*** Common user confusions:
+- Adding a page, not showing up in Table of Contents
+- Work / Exposition
+- Video tool / Video embed
+- PDF tool : Preview / PDF fields mixup
+
 ** Bugs
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
