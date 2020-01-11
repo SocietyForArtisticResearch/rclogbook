@@ -1,20 +1,26 @@
+#+TITLE:     RC Logbook
 #+EXPORT_FILE_NAME: index.html
 #+AUTHOR: RC Team
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+OPTIONS:   H:4 num:nil toc:2
 
-* Features in Development
-* Requested Features
+* RC Logbook
+** Features in Development
+** Requested Features
 
-* Ideas
-** Search through expositions
-** Undo button
-** Markdown in text/html tools
-* Problems
-** Collaboration tab needs explanation text about what is what. :UI:
-** Supervisor permissions behave weird on publication etc.
-** Objects outside of visual field.
-** No quick way for supervisor to delete/manage all their notes.
-** Notes list
-** Private note
-** No duplicate names for expositions
-* Bugs
-* Releases
+** Ideas
+*** Search through expositions
+*** SARA feed on front page
+*** Undo button
+*** Markdown in text/html tools
+** Problems
+*** Collaboration tab needs explanation text about what is what.         :UI:
+*** Supervisor permissions behave weird on publication etc.
+*** Objects outside of visual field.
+*** No quick way for supervisor to delete/manage all their notes.
+*** [#B] Notes list
+*** Private note
+*** No duplicate names for expositions
+** Bugs
+** Releases
+*** <2019-12-14 Sat> Text-based editor version 2.1.1
