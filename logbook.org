@@ -36,5 +36,8 @@ and lists ideas, features, bugs and problems.
 - PDF tool : Preview / PDF fields mixup
 
 ** Bugs
+
+Issue name is missing from research page. (also ordering is arbetrary, should either be customizable or make sense)
+
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
