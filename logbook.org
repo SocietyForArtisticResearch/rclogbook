@@ -22,6 +22,7 @@ and lists ideas, features, bugs and problems.
 - Make keywords mandatory on publication
 - Have a combination of closed and open vocabularies
 ** Problems
+*** Unpublishing changes publication date when republished (for example 
 *** Collaboration tab needs explanation text about what is what.         :UI:
 *** Supervisor permissions behave weird on publication etc.
 *** Objects outside of visual field.
