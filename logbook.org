@@ -21,7 +21,29 @@ and lists ideas, features, bugs and problems.
 *** Keywords: 
 - Make keywords mandatory on publication
 - Have a combination of closed and open vocabularies
+*** Make exposition version on submit 
+(also visible for admins) for later reference/compare changes
+*** exposition metadata export for journals
+*** journal submission as application
+*** application programs
+save vs. submit, inform/warn people when deadline is close, message on save that this is not submitting
+*** searchable inbox
+*** object preview images without fixed width/height ratio. 
+- also objects even without image, "tumblr" page
+- state share status clearly
+- display abstract on/off setting
+- show keywords
+- tagging for profile organization / change group button for item
+- collapse all groups
+*** dates of expositions: 
+- remove free "date" field. 
+- add automatic creation date
+- publication date will not be altered by unpublish/republished (only last modified)
+*** editor view
+- how to avoid them being portal admins
+- list of objects of which they are editors
 ** Problems
+*** Unpublishing changes publication date when republished (for example 
 *** Collaboration tab needs explanation text about what is what.         :UI:
 *** Supervisor permissions behave weird on publication etc.
 *** Objects outside of visual field.
@@ -37,5 +59,8 @@ and lists ideas, features, bugs and problems.
 
 ** Bugs
 - Mail Link for owner with pseudonym on reviewing page
+- Issue name is missing from research page. (also ordering is
+  arbetrary, should either be customizable or make sense)
+- date of last change not updated for text-based expositions
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
