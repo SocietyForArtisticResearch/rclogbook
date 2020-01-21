@@ -36,5 +36,6 @@ and lists ideas, features, bugs and problems.
 - PDF tool : Preview / PDF fields mixup
 
 ** Bugs
+- Mail Link for owner with pseudonym on reviewing page
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
