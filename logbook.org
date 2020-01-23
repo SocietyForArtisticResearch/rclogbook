@@ -59,9 +59,10 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Preview of text-based exposition does not update quickly enough
 
 ** Bugs
-- Mail Link for owner with pseudonym on reviewing page
+- Declining connection request does not have effect (reported)
+- Mail Link for owner with pseudonym on reviewing page (reported)
 - Issue name is missing from research page. (also ordering is
   arbetrary, should either be customizable or make sense)
-- date of last change not updated for text-based expositions
+- date of last change not updated for text-based expositions (not yet reported)
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
