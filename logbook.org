@@ -59,6 +59,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Preview of text-based exposition does not update quickly enough
 
 ** Bugs
+- exporting JAR expositions caused problems with Safari/Chrome (Aubiome project)
 - Declining connection request does not have effect (reported)
 - Mail Link for owner with pseudonym on reviewing page (reported)
 - Issue name is missing from research page. (also ordering is
