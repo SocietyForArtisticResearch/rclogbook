@@ -65,5 +65,6 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 - Issue name is missing from research page. (also ordering is
   arbetrary, should either be customizable or make sense)
 - date of last change not updated for text-based expositions (not yet reported)
+- scrollbars hidden on Mac computer 
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
