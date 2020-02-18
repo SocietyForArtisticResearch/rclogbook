@@ -56,7 +56,9 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 - Work / Exposition
 - Video tool / Video embed
 - PDF tool : Preview / PDF fields mixup
-*** Preview of text-based exposition does not update quickly enough
+- Audio tool should not be an empty box, but communicate:
+  "Audio tool: filename"
+*** DONE Preview of text-based exposition does not update quickly enough
 
 ** Bugs
 - exporting JAR expositions caused problems with Safari/Chrome (Aubiome project)
