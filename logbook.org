@@ -18,6 +18,7 @@ and lists ideas, features, bugs and problems.
 *** SARA feed on front page
 *** Undo button
 *** Markdown in text/html tools
+*** Text tools size warnings, current lack of limits stimulates risky designs.
 *** Keywords: 
 - Make keywords mandatory on publication
 - Have a combination of closed and open vocabularies
@@ -43,7 +44,6 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 - how to avoid them being portal admins
 - list of objects of which they are editors
 ** Problems
-*** Text tools size warnings, current lack of limits stimulates risky designs.
 *** Unpublishing changes publication date when republished (for example 
 *** Collaboration tab needs explanation text about what is what.         :UI:
 *** Supervisor permissions behave weird on publication etc.
