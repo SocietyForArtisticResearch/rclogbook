@@ -12,7 +12,10 @@ and lists ideas, features, bugs and problems.
 
 ** Features in Development
 ** Requested Features
-
+** To be requested
+*** cms for about, terms and other static pages
+*** feide login for ntnu bergen, nmh
+*** terms of use checkbox
 ** Ideas
 *** Search through expositions
 *** SARA feed on front page
