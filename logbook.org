@@ -4,7 +4,6 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 #+OPTIONS:   H:4 num:nil toc:2
 
-
 * RC Logbook
 
 This file contains information on the current state of RC developments
@@ -13,6 +12,7 @@ and lists ideas, features, bugs and problems.
 ** Features in Development
 ** Requested Features
 ** To be requested
+** Released Features
 *** cms for about, terms and other static pages
 *** feide login for ntnu bergen, nmh
 *** terms of use checkbox
@@ -49,6 +49,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** graphical editor
 - pixel by pixel movement of tools with arrow keys (and pixel number display)
 - linking to a tool instead of a position
+*** Archiving function
 ** Problems
 *** Unpublishing changes publication date when republished (for example 
 *** Collaboration tab needs explanation text about what is what.         :UI:
