@@ -49,7 +49,9 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** graphical editor
 - pixel by pixel movement of tools with arrow keys (and pixel number display)
 - linking to a tool instead of a position
+- refresh overview when a tool was deleted
 *** Archiving function
+*** Sortable list view of expositions on "Recent activity" "Recent publications", "My Profile" and other locations in RC.
 ** Problems
 *** Unpublishing changes publication date when republished (for example 
 *** Collaboration tab needs explanation text about what is what.         :UI:
@@ -73,6 +75,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
   arbetrary, should either be customizable or make sense)
 - date of last change not updated for text-based expositions (not yet reported)
 - scrollbars hidden on Mac computer 
+- position of tools can be made negative by mouse, but not edited by number in the style tab.
 ** Fixes
 - exporting JAR expositions caused problems with Safari/Chrome (Aubiome project)
 - Declining connection request does not have effect (reported)
