@@ -69,7 +69,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 - Audio tool should not be an empty box, but communicate:
   "Audio tool: filename"
 *** DONE Preview of text-based exposition does not update quickly enough
-
+*** background color of text-based editor should not change when body background-color is set (connected to margin issue)
 ** Bugs
 - Issue name is missing from research page. (also ordering is
   arbetrary, should either be customizable or make sense)
