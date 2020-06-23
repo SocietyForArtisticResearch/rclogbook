@@ -71,6 +71,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** DONE Preview of text-based exposition does not update quickly enough
 *** background color of text-based editor should not change when body background-color is set (connected to margin issue)
 ** Bugs
+- If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.
 - Issue name is missing from research page. (also ordering is
   arbetrary, should either be customizable or make sense)
 - date of last change not updated for text-based expositions (not yet reported)
