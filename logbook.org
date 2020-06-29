@@ -80,6 +80,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 * Bugs
 ** Bugs to be reported
 *** scrollbars hidden on Mac OS 
+*** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 
 ** Reported Bugs
 *** Full screen doesn't work with autoplay
