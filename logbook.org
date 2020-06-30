@@ -22,6 +22,7 @@ and lists ideas, features, bugs and problems.
 *** terms of use checkbox
 *** css of profile page responsiveness
 ** Ideas
+*** Increase audio quality of zencoder (currently, uses pretty low bitrate, filters out everything above 15k)
 *** Search through expositions
 *** SARA feed on front page
 *** Undo button
