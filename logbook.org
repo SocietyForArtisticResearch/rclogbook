@@ -22,6 +22,7 @@ and lists ideas, features, bugs and problems.
 *** terms of use checkbox
 *** css of profile page responsiveness
 ** Ideas
+*** Increase audio quality of zencoder (currently, uses pretty low bitrate, filters out everything above 15k)
 *** Search through expositions
 *** SARA feed on front page
 *** Undo button
@@ -80,6 +81,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 * Bugs
 ** Bugs to be reported
 *** scrollbars hidden on Mac OS 
+*** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 
 ** Reported Bugs
 *** Full screen doesn't work with autoplay
