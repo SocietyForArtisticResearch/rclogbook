@@ -32,7 +32,7 @@ and lists ideas, features, bugs and problems.
 - Have a combination of closed and open vocabularies
 *** Make exposition version on submit 
 (also visible for admins) for later reference/compare changes
-*** exposition metadata export for journals
+*** exposition metadata export for journalsg
 *** journal submission as application
 *** application programs
 save vs. submit, inform/warn people when deadline is close, message on save that this is not submitting
@@ -84,17 +84,17 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** Reported Bugs
 *** Full screen doesn't work with autoplay
 *** Published exposition cannot be connected to
-*** Issue name is missing from research page. (also ordering is arbitrary, should either be customizable or make sense) (reporter: NMH)
-*** date of last change not updated for text-based expositions 
-*** position of tools can be made negative by mouse, but not edited by number in the style tab. (reporter: JAR)
-
+*** position of tools can be made negative by mouse, but not edited by number in the style tab. (reporter: JAR, closed but not live)
+*** Fullscreen and Downloads on HTML-import videos (NTNU)
 
 ** Fixed Bugs
+*** DONE date of last change not updated for text-based expositions 
 *** DONE exporting JAR expositions caused problems with Safari/Chrome (Aubiome project)
 *** DONE Declining connection request does not have effect (reported)
 *** DONE Mail Link for owner with pseudonym on reviewing page (reported)
 *** DONE restore deleted tools title column
 *** DONE Exposition 849232 throws an error on preview
 
+*** DONE Issue name is missing from research page. (also ordering is arbitrary, should either be customizable or make sense) (reporter: NMH)
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
