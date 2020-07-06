@@ -14,6 +14,7 @@ and lists ideas, features, bugs and problems.
 *** File size limit HTML import (raise to 10gb)
 *** Media Repository API
 *** Frontpage Redesign
+**** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
 ** Released Features
