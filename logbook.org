@@ -59,6 +59,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Archiving function
 *** Sortable list view of expositions on "Recent activity" "Recent publications", "My Profile" and other locations in RC.
 ** Problems
+*** Line-height in HTML tool can cause issues (there is a tinymce css line that inherits it from parent, but this causes wrong size if there is styling inline the copied html). One solution could be to filter pasted html.
 *** Unpublishing changes publication date when republished (for example 
 *** Collaboration tab needs explanation text about what is what.         :UI:
 *** Supervisor permissions behave weird on publication etc.
