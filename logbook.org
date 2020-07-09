@@ -59,6 +59,17 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 - refresh overview when a tool was deleted
 *** Archiving function
 *** Sortable list view of expositions on "Recent activity" "Recent publications", "My Profile" and other locations in RC.
+*** elm text editor based on https://github.com/SidneyNemzer/elm-text-editor
+*** comments/notes
+**** footnote like comments {^1}
+**** inline comments {<<>>}
+**** we need to rendered html version, one for public preview not displaying comments and one for editing (with comments)
+*** footnotes
+**** singled shared model for both editors
+**** one list for the entire exposition
+**** type of footnotes (references etc)
+**** footnote edit page
+**** reference counting, footnotes need to know where they are used
 ** Problems
 *** Line-height in HTML tool can cause issues (there is a tinymce css line that inherits it from parent, but this causes wrong size if there is styling inline the copied html). One solution could be to filter pasted html.
 *** Unpublishing changes publication date when republished (for example 
