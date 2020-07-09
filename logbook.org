@@ -91,6 +91,8 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** position of tools can be made negative by mouse, but not edited by number in the style tab. (reporter: JAR, closed but not live)
 *** Fullscreen and Downloads on HTML-import videos (NTNU)
 
+*** Footnotes -> dissapearing scrollbar problem when opening certain notes (SAR-1262)
+*** Restoring an exposition while it was "in review", the "in review" status is enherited (SAR-1261)
 ** Fixed Bugs
 *** DONE date of last change not updated for text-based expositions 
 *** DONE exporting JAR expositions caused problems with Safari/Chrome (Aubiome project)
