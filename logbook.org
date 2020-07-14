@@ -93,6 +93,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Bugs
 ** Bugs to be reported
+*** Word import in Graphical Editor doesn't use HTML default tool settings
 *** scrollbars hidden on Mac OS 
 *** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 *** Fullscreen does not work in embedded videos. example 
