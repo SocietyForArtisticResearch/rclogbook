@@ -57,6 +57,12 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 - pixel by pixel movement of tools with arrow keys (and pixel number display)
 - linking to a tool instead of a position
 - refresh overview when a tool was deleted
+- alignment
+- group selection (lasso / box selection)
+- group locking (moving constallation)
+- prototype tool/template
+- copy-paste style tab settings
+
 *** Archiving function
 *** Sortable list view of expositions on "Recent activity" "Recent publications", "My Profile" and other locations in RC.
 *** elm text editor based on https://github.com/SidneyNemzer/elm-text-editor
@@ -117,3 +123,9 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 *** DONE Issue name is missing from research page. (also ordering is arbitrary, should either be customizable or make sense) (reporter: NMH)
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
+
+* API testing
+
+** DONE open keywords set https://dev.researchcatalogue.net/api/keywords/open 
+  note: body should be something like {"value":"I am a keyword really"}
+** DONE open keywords get
