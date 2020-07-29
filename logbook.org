@@ -111,11 +111,14 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 ** Reported Bugs
 *** Full screen doesn't work with autoplay
 *** Published exposition cannot be connected to
-*** position of tools can be made negative by mouse, but not edited by number in the style tab. (reporter: JAR, closed but not live)
-*** Fullscreen and Downloads on HTML-import videos (NTNU)
-*** Footnotes -> dissapearing scrollbar problem when opening certain notes (SAR-1262)
-*** Restoring an exposition while it was "in review", the "in review" status is inherited (SAR-1261)
+
+
+
 ** Fixed Bugs
+*** DONE position of tools can be made negative by mouse, but not edited by number in the style tab. (reporter: JAR, closed but not live)
+*** DONE Fullscreen and Downloads on HTML-import videos (NTNU)
+*** DONE (could not reproduce) Restoring an exposition while it was "in review", the "in review" status is inherited (SAR-1261)
+*** DONE Footnotes -> dissapearing scrollbar problem when opening certain notes (SAR-1262)
 *** DONE date of last change not updated for text-based expositions 
 *** DONE exporting JAR expositions caused problems with Safari/Chrome (Aubiome project)
 *** DONE Declining connection request does not have effect (reported)
