@@ -110,6 +110,7 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 
 ** Reported Bugs
 *** Full screen doesn't work with autoplay
+*** Login-as does not work for feide accounts
 *** Published exposition cannot be connected to
 
 
