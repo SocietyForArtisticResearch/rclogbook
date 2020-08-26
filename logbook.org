@@ -106,10 +106,8 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 **** Controls do not work on mobile 
 **** In Safari this may be caused by a bug in Safari itself: https://www.ctrl.blog/entry/safari-csp-media-controls.html
 *** Word import in Graphical Editor doesn't use HTML default tool settings
-*** scrollbars hidden on Mac OS 
+*** Scrollbars hidden on Mac OS 
 *** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
-*** Fullscreen does not work in embedded videos. example 
-https://www.researchcatalogue.net/editor?research=861875&weave=944937
 *** change of font in CSS is not accepted after the publication of the exposition:  https://www.researchcatalogue.net/view/861875/861876
 
 ** Reported Bugs
@@ -117,6 +115,9 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 *** metro js not loaded / Icons are not displayed
 *** Published exposition cannot be connected to
 ** Fixed Bugs
+*** DONE Fullscreen does not work in embedded videos. example 
+https://www.researchcatalogue.net/editor?research=861875&weave=944937
+
 *** DONE Login-as does not work for feide accounts
 *** DONE position of tools can be made negative by mouse, but not edited by number in the style tab. (reporter: JAR, closed but not live)
 *** DONE Fullscreen and Downloads on HTML-import videos (NTNU)
