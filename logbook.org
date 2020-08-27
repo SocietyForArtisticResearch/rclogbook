@@ -102,7 +102,6 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Bugs
 ** Bugs to be reported
-*** Video player does not respond if autoplay is blocked.
 *** Video playback in HTML expositions breaks down on mobile.
 **** Controls do not work on mobile 
 **** In Safari this may be caused by a bug in Safari itself: https://www.ctrl.blog/entry/safari-csp-media-controls.html
@@ -131,7 +130,9 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 *** DONE restore deleted tools title column
 *** DONE Exposition 849232 throws an error on preview
 
+*** DONE Video player does not respond if autoplay is blocked.
 *** DONE Issue name is missing from research page. (also ordering is arbitrary, should either be customizable or make sense) (reporter: NMH)
+
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
 
