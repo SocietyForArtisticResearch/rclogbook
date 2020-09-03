@@ -17,6 +17,7 @@ and lists ideas, features, bugs and problems.
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
+*** TODO Send email to NTNU admin when FEIDE student has logged in first time, creating a new account
 ** Released features
 *** File size limit HTML import (raise to 10gb)
 *** cms for about, terms and other static pages
