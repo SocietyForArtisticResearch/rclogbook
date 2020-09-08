@@ -115,6 +115,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Full screen doesn't work with autoplay
 *** metro js not loaded / Icons are not displayed
 *** Published exposition cannot be connected to
+*** Footnotes in copied expositions are not editable
 ** Fixed Bugs
 *** DONE Fullscreen does not work in embedded videos. example 
 https://www.researchcatalogue.net/editor?research=861875&weave=944937

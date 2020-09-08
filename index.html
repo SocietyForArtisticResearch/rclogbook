@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-
 <head>
-    <!-- 2020-08-27 Thu 12:55 -->
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>RC Logbook</title>
-    <meta name="generator" content="Org mode" />
-    <meta name="author" content="RC Team" />
-    <style type="text/css">
-        <!--/*
-        -->
-    <![CDATA[/*><!--*/
+<!-- 2020-09-08 Tue 11:15 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RC Logbook</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="RC Team" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -181,15 +179,15 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
   /*]]>*/-->
-    </style>
-    <link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/htmlize.css" />
-    <link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
-    <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
-    <script type="text/javascript">
-        /*
+</style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
@@ -213,455 +211,462 @@ through which recipients can access the Corresponding Source.
 @licend  The above is the entire license notice
 for the JavaScript code in this tag.
 */
-        <!--/*--><![CDATA[/*><!--*/
-        function CodeHighlightOn(elem, id) {
-            var target = document.getElementById(id);
-            if (null != target) {
-                elem.cacheClassElem = elem.className;
-                elem.cacheClassTarget = target.className;
-                target.className = "code-highlighted";
-                elem.className = "code-highlighted";
-            }
-        }
-
-        function CodeHighlightOff(elem, id) {
-            var target = document.getElementById(id);
-            if (elem.cacheClassElem)
-                elem.className = elem.cacheClassElem;
-            if (elem.cacheClassTarget)
-                target.className = elem.cacheClassTarget;
-        }
-        /*]]>*/ //-->
-    </script>
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
 </head>
-
 <body>
-    <div id="content">
-        <h1 class="title">RC Logbook</h1>
-        <div id="table-of-contents">
-            <h2>Table of Contents</h2>
-            <div id="text-table-of-contents">
-                <ul>
-                    <li><a href="#orgadf3ce3">RC Logbook</a></li>
-                    <li><a href="#org13f18f3">Features and ideas</a>
-                        <ul>
-                            <li><a href="#org1c0650d">Features in development</a></li>
-                            <li><a href="#orgc0f3255">Features to be requested</a></li>
-                            <li><a href="#orgb0a1680">Released features</a></li>
-                            <li><a href="#org5e47cde">Ideas</a></li>
-                            <li><a href="#org784e914">Problems</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#org9b0560a">Bugs</a>
-                        <ul>
-                            <li><a href="#orgdbb5959">Bugs to be reported</a></li>
-                            <li><a href="#org69d0cc5">Reported Bugs</a></li>
-                            <li><a href="#orgea547e5">Fixed Bugs</a></li>
-                            <li><a href="#orga9a81ac">Releases</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#org01eb0a3">API testing</a>
-                        <ul>
-                            <li><a href="#org99c166a">setup elm project</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
+<div id="content">
+<h1 class="title">RC Logbook</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org9b7e37f">RC Logbook</a></li>
+<li><a href="#org2abd8d1">Features and ideas</a>
+<ul>
+<li><a href="#orgcc873f7">Features in development</a></li>
+<li><a href="#orgb32cf0d">Features to be requested</a></li>
+<li><a href="#org4877c0d">Released features</a></li>
+<li><a href="#orgaa79206">Ideas</a></li>
+<li><a href="#org17bad77">Problems</a></li>
+</ul>
+</li>
+<li><a href="#org58f1b8c">Bugs</a>
+<ul>
+<li><a href="#orgf3dabd5">Bugs to be reported</a></li>
+<li><a href="#org7eb7d1f">Reported Bugs</a></li>
+<li><a href="#org1572f5b">Fixed Bugs</a></li>
+<li><a href="#orgc4d2651">Releases</a></li>
+</ul>
+</li>
+<li><a href="#org9ca243e">API testing</a>
+<ul>
+<li><a href="#org1a00a7e">setup elm project</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 
-        <div id="outline-container-orgadf3ce3" class="outline-2">
-            <h2 id="orgadf3ce3">RC Logbook</h2>
-            <div class="outline-text-2" id="text-orgadf3ce3">
-                <p>
-                    This file contains information on the current state of RC developments
-                    and lists ideas, features, bugs and problems.
-                </p>
-            </div>
-        </div>
+<div id="outline-container-org9b7e37f" class="outline-2">
+<h2 id="org9b7e37f">RC Logbook</h2>
+<div class="outline-text-2" id="text-org9b7e37f">
+<p>
+This file contains information on the current state of RC developments
+and lists ideas, features, bugs and problems.
+</p>
+</div>
+</div>
 
-        <div id="outline-container-org13f18f3" class="outline-2">
-            <h2 id="org13f18f3">Features and ideas</h2>
-            <div class="outline-text-2" id="text-org13f18f3">
-            </div>
-            <div id="outline-container-org1c0650d" class="outline-3">
-                <h3 id="org1c0650d">Features in development</h3>
-                <div class="outline-text-3" id="text-org1c0650d">
-                </div>
-                <div id="outline-container-org6a62d28" class="outline-4">
-                    <h4 id="org6a62d28">Media Repository API</h4>
-                </div>
-                <div id="outline-container-org8024851" class="outline-4">
-                    <h4 id="org8024851">Frontpage Redesign</h4>
-                </div>
-                <div id="outline-container-orgef2882d" class="outline-4">
-                    <h4 id="orgef2882d">SARA feed on front page</h4>
-                    <div class="outline-text-4" id="text-orgef2882d">
-                    </div>
-                    <div id="outline-container-org5acbc35" class="outline-5">
-                        <h5 id="org5acbc35">Ordering of portals by creation data / or alphabetic</h5>
-                    </div>
-                </div>
-                <div id="outline-container-orgdb0d8c8" class="outline-4">
-                    <h4 id="orgdb0d8c8">Research Video Integration</h4>
-                </div>
-            </div>
-            <div id="outline-container-orgc0f3255" class="outline-3">
-                <h3 id="orgc0f3255">Features to be requested</h3>
-            </div>
-            <div id="outline-container-orgb0a1680" class="outline-3">
-                <h3 id="orgb0a1680">Released features</h3>
-                <div class="outline-text-3" id="text-orgb0a1680">
-                </div>
-                <div id="outline-container-org5570a3f" class="outline-4">
-                    <h4 id="org5570a3f">File size limit HTML import (raise to 10gb)</h4>
-                </div>
-                <div id="outline-container-org537a016" class="outline-4">
-                    <h4 id="org537a016">cms for about, terms and other static pages</h4>
-                </div>
-                <div id="outline-container-org6fe2297" class="outline-4">
-                    <h4 id="org6fe2297">feide login for ntnu bergen, nmh</h4>
-                </div>
-                <div id="outline-container-org2b036d4" class="outline-4">
-                    <h4 id="org2b036d4">terms of use simplification, checkbox online</h4>
-                </div>
-                <div id="outline-container-orgbf32cfe" class="outline-4">
-                    <h4 id="orgbf32cfe">css of profile page responsiveness</h4>
-                </div>
-                <div id="outline-container-orgd8405af" class="outline-4">
-                    <h4 id="orgd8405af">Make exposition version on submit</h4>
-                </div>
-                <div id="outline-container-orga1a75a6" class="outline-4">
-                    <h4 id="orga1a75a6">Objects can now have a negative position but still be edited.</h4>
-                </div>
-            </div>
-            <div id="outline-container-org5e47cde" class="outline-3">
-                <h3 id="org5e47cde">Ideas</h3>
-                <div class="outline-text-3" id="text-org5e47cde">
-                </div>
-                <div id="outline-container-org6be5e74" class="outline-4">
-                    <h4 id="org6be5e74">Increase audio quality of zencoder (currently, uses pretty low bitrate, filters out everything above 15k)</h4>
-                </div>
-                <div id="outline-container-org85d7c7f" class="outline-4">
-                    <h4 id="org85d7c7f">Search through expositions</h4>
-                </div>
-                <div id="outline-container-org0f390d1" class="outline-4">
-                    <h4 id="org0f390d1">Undo button</h4>
-                </div>
-                <div id="outline-container-orge6f7ff5" class="outline-4">
-                    <h4 id="orge6f7ff5">Markdown in text/html tools</h4>
-                </div>
-                <div id="outline-container-org6ef758c" class="outline-4">
-                    <h4 id="org6ef758c">Text tools size warnings, current lack of limits stimulates risky designs.</h4>
-                </div>
-                <div id="outline-container-org7c10382" class="outline-4">
-                    <h4 id="org7c10382">Keywords:</h4>
-                    <div class="outline-text-4" id="text-org7c10382">
-                        <ul class="org-ul">
-                            <li>Make keywords mandatory on publication</li>
-                            <li>Have a combination of closed and open vocabularies</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-orgab8ce56" class="outline-4">
-                    <h4 id="orgab8ce56">versions visible for admins - for later reference/compare changes</h4>
-                </div>
-                <div id="outline-container-orged8ec81" class="outline-4">
-                    <h4 id="orged8ec81">exposition metadata export for journals</h4>
-                </div>
-                <div id="outline-container-org0d3ea8f" class="outline-4">
-                    <h4 id="org0d3ea8f">journal submission as application</h4>
-                </div>
-                <div id="outline-container-orgb3c3017" class="outline-4">
-                    <h4 id="orgb3c3017">application programs</h4>
-                    <div class="outline-text-4" id="text-orgb3c3017">
-                        <p>
-                            save vs. submit, inform/warn people when deadline is close, message on save that this is not submitting
-                        </p>
-                    </div>
-                </div>
-                <div id="outline-container-org0b27cbb" class="outline-4">
-                    <h4 id="org0b27cbb">searchable inbox</h4>
-                </div>
-                <div id="outline-container-org3c2708c" class="outline-4">
-                    <h4 id="org3c2708c">object preview images without fixed width/height ratio.</h4>
-                </div>
-                <div id="outline-container-org4039af8" class="outline-4">
-                    <h4 id="org4039af8">profile page</h4>
-                    <div class="outline-text-4" id="text-org4039af8">
-                        <ul class="org-ul">
-                            <li>better display of objects without image, "tumblr" page</li>
-                            <li>state share status clearly</li>
-                            <li>display abstract on/off setting</li>
-                            <li>show keywords</li>
-                            <li>tagging for profile organization / change group button for item</li>
-                            <li>collapse all groups</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-org00223af" class="outline-4">
-                    <h4 id="org00223af">dates of expositions:</h4>
-                    <div class="outline-text-4" id="text-org00223af">
-                        <ul class="org-ul">
-                            <li>remove free "date" field.</li>
-                            <li>add automatic creation date</li>
-                            <li>publication date will not be altered by unpublish/republished (only last modified)</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-orgb1ccf5e" class="outline-4">
-                    <h4 id="orgb1ccf5e">editor role</h4>
-                    <div class="outline-text-4" id="text-orgb1ccf5e">
-                        <ul class="org-ul">
-                            <li>can we allow this role without needing them to be portal admins</li>
-                            <li>list of objects of which they are editors</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-org9eae4c9" class="outline-4">
-                    <h4 id="org9eae4c9">graphical editor</h4>
-                    <div class="outline-text-4" id="text-org9eae4c9">
-                        <ul class="org-ul">
-                            <li>pixel by pixel movement of tools with arrow keys (and pixel number display)</li>
-                            <li>linking to a tool instead of a position</li>
-                            <li>refresh overview when a tool was deleted</li>
-                            <li>alignment</li>
-                            <li>adjustments of margins for position links on the right side of the weave-some links currently 'bump' into borders, displaying the wrong position</li>
-                            <li>group selection (lasso / box selection)</li>
-                            <li>group locking (moving constallation)</li>
-                            <li>prototype tool/template</li>
-                            <li>copy-paste style tab settings</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-org5f42a9d" class="outline-4">
-                    <h4 id="org5f42a9d">Archiving function</h4>
-                    <div class="outline-text-4" id="text-org5f42a9d">
-                        <ul class="org-ul">
-                            <li>this is an alternative form of publication where it is fixed, but only visible to portal admins.</li>
-                            <li>probably needs some extra meta-data like department / context in which the archived exposition was produced.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-org6293f57" class="outline-4">
-                    <h4 id="org6293f57">Sortable list view of expositions on "Recent activity" "Recent publications", "My Profile" and other locations in RC.</h4>
-                </div>
-                <div id="outline-container-orgf18a0f3" class="outline-4">
-                    <h4 id="orgf18a0f3">elm text editor based on <a href="https://github.com/SidneyNemzer/elm-text-editor">https://github.com/SidneyNemzer/elm-text-editor</a></h4>
-                </div>
-                <div id="outline-container-org53c8468" class="outline-4">
-                    <h4 id="org53c8468">comments/notes</h4>
-                    <div class="outline-text-4" id="text-org53c8468">
-                    </div>
-                    <div id="outline-container-org699bf1b" class="outline-5">
-                        <h5 id="org699bf1b">footnote like comments {<sup>1</sup>}</h5>
-                    </div>
-                    <div id="outline-container-org7719232" class="outline-5">
-                        <h5 id="org7719232">inline comments {&lt;&lt;&gt;&gt;}</h5>
-                    </div>
-                    <div id="outline-container-orgf8eaee7" class="outline-5">
-                        <h5 id="orgf8eaee7">we need to rendered html version, one for public preview not displaying comments and one for editing (with comments)</h5>
-                    </div>
-                </div>
-                <div id="outline-container-orge9416d8" class="outline-4">
-                    <h4 id="orge9416d8">footnotes</h4>
-                    <div class="outline-text-4" id="text-orge9416d8">
-                    </div>
-                    <div id="outline-container-org49f701b" class="outline-5">
-                        <h5 id="org49f701b">singled shared model for both editors</h5>
-                    </div>
-                    <div id="outline-container-org83c2751" class="outline-5">
-                        <h5 id="org83c2751">one list for the entire exposition</h5>
-                    </div>
-                    <div id="outline-container-org98470ef" class="outline-5">
-                        <h5 id="org98470ef">type of footnotes (references etc)</h5>
-                    </div>
-                    <div id="outline-container-orgd5d0e7a" class="outline-5">
-                        <h5 id="orgd5d0e7a">footnote edit page</h5>
-                    </div>
-                    <div id="outline-container-org267cc2d" class="outline-5">
-                        <h5 id="org267cc2d">reference counting, footnotes need to know where they are used</h5>
-                    </div>
-                </div>
-            </div>
-            <div id="outline-container-org784e914" class="outline-3">
-                <h3 id="org784e914">Problems</h3>
-                <div class="outline-text-3" id="text-org784e914">
-                </div>
-                <div id="outline-container-org9b19eeb" class="outline-4">
-                    <h4 id="org9b19eeb">Line-height in HTML tool can cause issues (there is a tinymce css line that inherits it from parent, but this causes wrong size if there is styling inline the copied html). One solution could be to filter pasted html.</h4>
-                </div>
-                <div id="outline-container-orgf10aac3" class="outline-4">
-                    <h4 id="orgf10aac3">Unpublishing changes publication date when republished (for example</h4>
-                </div>
-                <div id="outline-container-org9dccaf1" class="outline-4">
-                    <h4 id="org9dccaf1">Collaboration tab needs explanation text about what is what.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="UI">UI</span></span></h4>
-                </div>
-                <div id="outline-container-org7141307" class="outline-4">
-                    <h4 id="org7141307">Supervisor permissions behave weird on publication etc.</h4>
-                </div>
-                <div id="outline-container-org4fda912" class="outline-4">
-                    <h4 id="org4fda912">No quick way for supervisor to delete/manage all their notes.</h4>
-                </div>
-                <div id="outline-container-orgb2616b1" class="outline-4">
-                    <h4 id="orgb2616b1">Notes list</h4>
-                </div>
-                <div id="outline-container-org2ec1492" class="outline-4">
-                    <h4 id="org2ec1492">Private note</h4>
-                </div>
-                <div id="outline-container-org0a67f2a" class="outline-4">
-                    <h4 id="org0a67f2a">No duplicate names for expositions</h4>
-                </div>
-                <div id="outline-container-org2a91388" class="outline-4">
-                    <h4 id="org2a91388">Common user confusions:</h4>
-                    <div class="outline-text-4" id="text-org2a91388">
-                        <ul class="org-ul">
-                            <li>Adding a page, not showing up in Table of Contents</li>
-                            <li>Work / Exposition</li>
-                            <li>Video tool / Video embed</li>
-                            <li>PDF tool : Preview / PDF fields mixup</li>
-                            <li>Audio tool should not be an empty box, but communicate:
-                                "Audio tool: filename"</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-org7465fc2" class="outline-4">
-                    <h4 id="org7465fc2"><span class="done DONE">DONE</span> Preview of text-based exposition does not update quickly enough</h4>
-                </div>
-                <div id="outline-container-org1986307" class="outline-4">
-                    <h4 id="org1986307">background color of text-based editor should not change when body background-color is set (connected to margin issue)</h4>
-                </div>
-                <div id="outline-container-org1019daa" class="outline-4">
-                    <h4 id="org1019daa">If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.</h4>
-                </div>
-            </div>
-        </div>
+<div id="outline-container-org2abd8d1" class="outline-2">
+<h2 id="org2abd8d1">Features and ideas</h2>
+<div class="outline-text-2" id="text-org2abd8d1">
+</div>
+<div id="outline-container-orgcc873f7" class="outline-3">
+<h3 id="orgcc873f7">Features in development</h3>
+<div class="outline-text-3" id="text-orgcc873f7">
+</div>
+<div id="outline-container-org9a015cf" class="outline-4">
+<h4 id="org9a015cf">Media Repository API</h4>
+</div>
+<div id="outline-container-org19afc81" class="outline-4">
+<h4 id="org19afc81">Frontpage Redesign</h4>
+</div>
+<div id="outline-container-orgc92b855" class="outline-4">
+<h4 id="orgc92b855">SARA feed on front page</h4>
+<div class="outline-text-4" id="text-orgc92b855">
+</div>
+<div id="outline-container-orga8637e3" class="outline-5">
+<h5 id="orga8637e3">Ordering of portals by creation data / or alphabetic</h5>
+</div>
+</div>
+<div id="outline-container-org8c200c9" class="outline-4">
+<h4 id="org8c200c9">Research Video Integration</h4>
+</div>
+</div>
+<div id="outline-container-orgb32cf0d" class="outline-3">
+<h3 id="orgb32cf0d">Features to be requested</h3>
+<div class="outline-text-3" id="text-orgb32cf0d">
+</div>
+<div id="outline-container-org5cb3584" class="outline-4">
+<h4 id="org5cb3584"><span class="todo TODO">TODO</span> Send email to NTNU admin when FEIDE student has logged in first time, creating a new account</h4>
+</div>
+</div>
+<div id="outline-container-org4877c0d" class="outline-3">
+<h3 id="org4877c0d">Released features</h3>
+<div class="outline-text-3" id="text-org4877c0d">
+</div>
+<div id="outline-container-orge6797b8" class="outline-4">
+<h4 id="orge6797b8">File size limit HTML import (raise to 10gb)</h4>
+</div>
+<div id="outline-container-org7c4d555" class="outline-4">
+<h4 id="org7c4d555">cms for about, terms and other static pages</h4>
+</div>
+<div id="outline-container-orgd8c4983" class="outline-4">
+<h4 id="orgd8c4983">feide login for ntnu bergen, nmh</h4>
+</div>
+<div id="outline-container-org6f6f363" class="outline-4">
+<h4 id="org6f6f363">terms of use simplification, checkbox online</h4>
+</div>
+<div id="outline-container-org727dfd5" class="outline-4">
+<h4 id="org727dfd5">css of profile page responsiveness</h4>
+</div>
+<div id="outline-container-org520a77f" class="outline-4">
+<h4 id="org520a77f">Make exposition version on submit</h4>
+</div>
+<div id="outline-container-org9d42c3f" class="outline-4">
+<h4 id="org9d42c3f">Objects can now have a negative position but still be edited.</h4>
+</div>
+</div>
+<div id="outline-container-orgaa79206" class="outline-3">
+<h3 id="orgaa79206">Ideas</h3>
+<div class="outline-text-3" id="text-orgaa79206">
+</div>
+<div id="outline-container-orgc6030a1" class="outline-4">
+<h4 id="orgc6030a1">Increase audio quality of zencoder (currently, uses pretty low bitrate, filters out everything above 15k)</h4>
+</div>
+<div id="outline-container-org9e1ddcb" class="outline-4">
+<h4 id="org9e1ddcb">Search through expositions</h4>
+</div>
+<div id="outline-container-org0f7137c" class="outline-4">
+<h4 id="org0f7137c">Undo button</h4>
+</div>
+<div id="outline-container-org9ea5a64" class="outline-4">
+<h4 id="org9ea5a64">Markdown in text/html tools</h4>
+</div>
+<div id="outline-container-org70d74d0" class="outline-4">
+<h4 id="org70d74d0">Text tools size warnings, current lack of limits stimulates risky designs.</h4>
+</div>
+<div id="outline-container-org17fcc4f" class="outline-4">
+<h4 id="org17fcc4f">Keywords:</h4>
+<div class="outline-text-4" id="text-org17fcc4f">
+<ul class="org-ul">
+<li>Make keywords mandatory on publication</li>
+<li>Have a combination of closed and open vocabularies</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org94b8a77" class="outline-4">
+<h4 id="org94b8a77">versions visible for admins - for later reference/compare changes</h4>
+</div>
+<div id="outline-container-orged5c10a" class="outline-4">
+<h4 id="orged5c10a">exposition metadata export for journals</h4>
+</div>
+<div id="outline-container-orgf6ba0e2" class="outline-4">
+<h4 id="orgf6ba0e2">journal submission as application</h4>
+</div>
+<div id="outline-container-org53b82ed" class="outline-4">
+<h4 id="org53b82ed">application programs</h4>
+<div class="outline-text-4" id="text-org53b82ed">
+<p>
+save vs. submit, inform/warn people when deadline is close, message on save that this is not submitting
+</p>
+</div>
+</div>
+<div id="outline-container-org4fb1355" class="outline-4">
+<h4 id="org4fb1355">searchable inbox</h4>
+</div>
+<div id="outline-container-orgd919435" class="outline-4">
+<h4 id="orgd919435">object preview images without fixed width/height ratio.</h4>
+</div>
+<div id="outline-container-org81c296d" class="outline-4">
+<h4 id="org81c296d">profile page</h4>
+<div class="outline-text-4" id="text-org81c296d">
+<ul class="org-ul">
+<li>better display of objects without image, "tumblr" page</li>
+<li>state share status clearly</li>
+<li>display abstract on/off setting</li>
+<li>show keywords</li>
+<li>tagging for profile organization / change group button for item</li>
+<li>collapse all groups</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org950d2b6" class="outline-4">
+<h4 id="org950d2b6">dates of expositions:</h4>
+<div class="outline-text-4" id="text-org950d2b6">
+<ul class="org-ul">
+<li>remove free "date" field.</li>
+<li>add automatic creation date</li>
+<li>publication date will not be altered by unpublish/republished (only last modified)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge610988" class="outline-4">
+<h4 id="orge610988">editor role</h4>
+<div class="outline-text-4" id="text-orge610988">
+<ul class="org-ul">
+<li>can we allow this role without needing them to be portal admins</li>
+<li>list of objects of which they are editors</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfcc64d2" class="outline-4">
+<h4 id="orgfcc64d2">graphical editor</h4>
+<div class="outline-text-4" id="text-orgfcc64d2">
+<ul class="org-ul">
+<li>pixel by pixel movement of tools with arrow keys (and pixel number display)</li>
+<li>linking to a tool instead of a position</li>
+<li>refresh overview when a tool was deleted</li>
+<li>alignment</li>
+<li>adjustments of margins for position links on the right side of the weave-some links currently 'bump' into borders, displaying the wrong position</li>
+<li>group selection (lasso / box selection)</li>
+<li>group locking (moving constallation)</li>
+<li>prototype tool/template</li>
+<li>copy-paste style tab settings</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1c4da1e" class="outline-4">
+<h4 id="org1c4da1e">Archiving function</h4>
+<div class="outline-text-4" id="text-org1c4da1e">
+<ul class="org-ul">
+<li>this is an alternative form of publication where it is fixed, but only visible to portal admins.</li>
+<li>probably needs some extra meta-data like department / context in which the archived exposition was produced.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8ad8668" class="outline-4">
+<h4 id="org8ad8668">Sortable list view of expositions on "Recent activity" "Recent publications", "My Profile" and other locations in RC.</h4>
+</div>
+<div id="outline-container-org6887311" class="outline-4">
+<h4 id="org6887311">elm text editor based on <a href="https://github.com/SidneyNemzer/elm-text-editor">https://github.com/SidneyNemzer/elm-text-editor</a></h4>
+</div>
+<div id="outline-container-org1ac1059" class="outline-4">
+<h4 id="org1ac1059">comments/notes</h4>
+<div class="outline-text-4" id="text-org1ac1059">
+</div>
+<div id="outline-container-org95944ab" class="outline-5">
+<h5 id="org95944ab">footnote like comments {<sup>1</sup>}</h5>
+</div>
+<div id="outline-container-orgde12d54" class="outline-5">
+<h5 id="orgde12d54">inline comments {&lt;&lt;&gt;&gt;}</h5>
+</div>
+<div id="outline-container-orgeaf0aef" class="outline-5">
+<h5 id="orgeaf0aef">we need to rendered html version, one for public preview not displaying comments and one for editing (with comments)</h5>
+</div>
+</div>
+<div id="outline-container-org24078be" class="outline-4">
+<h4 id="org24078be">footnotes</h4>
+<div class="outline-text-4" id="text-org24078be">
+</div>
+<div id="outline-container-org857a27d" class="outline-5">
+<h5 id="org857a27d">singled shared model for both editors</h5>
+</div>
+<div id="outline-container-org0c13729" class="outline-5">
+<h5 id="org0c13729">one list for the entire exposition</h5>
+</div>
+<div id="outline-container-orgc4ead29" class="outline-5">
+<h5 id="orgc4ead29">type of footnotes (references etc)</h5>
+</div>
+<div id="outline-container-org1d591f2" class="outline-5">
+<h5 id="org1d591f2">footnote edit page</h5>
+</div>
+<div id="outline-container-orgeb0d100" class="outline-5">
+<h5 id="orgeb0d100">reference counting, footnotes need to know where they are used</h5>
+</div>
+</div>
+</div>
+<div id="outline-container-org17bad77" class="outline-3">
+<h3 id="org17bad77">Problems</h3>
+<div class="outline-text-3" id="text-org17bad77">
+</div>
+<div id="outline-container-org6d49028" class="outline-4">
+<h4 id="org6d49028">Line-height in HTML tool can cause issues (there is a tinymce css line that inherits it from parent, but this causes wrong size if there is styling inline the copied html). One solution could be to filter pasted html.</h4>
+</div>
+<div id="outline-container-org6a6092f" class="outline-4">
+<h4 id="org6a6092f">Unpublishing changes publication date when republished (for example</h4>
+</div>
+<div id="outline-container-orgf0833aa" class="outline-4">
+<h4 id="orgf0833aa">Collaboration tab needs explanation text about what is what.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="UI">UI</span></span></h4>
+</div>
+<div id="outline-container-org56711c3" class="outline-4">
+<h4 id="org56711c3">Supervisor permissions behave weird on publication etc.</h4>
+</div>
+<div id="outline-container-orgd872083" class="outline-4">
+<h4 id="orgd872083">No quick way for supervisor to delete/manage all their notes.</h4>
+</div>
+<div id="outline-container-org5738a5e" class="outline-4">
+<h4 id="org5738a5e">Notes list</h4>
+</div>
+<div id="outline-container-org309c243" class="outline-4">
+<h4 id="org309c243">Private note</h4>
+</div>
+<div id="outline-container-orgf0ef11f" class="outline-4">
+<h4 id="orgf0ef11f">No duplicate names for expositions</h4>
+</div>
+<div id="outline-container-orgde6352e" class="outline-4">
+<h4 id="orgde6352e">Common user confusions:</h4>
+<div class="outline-text-4" id="text-orgde6352e">
+<ul class="org-ul">
+<li>Adding a page, not showing up in Table of Contents</li>
+<li>Work / Exposition</li>
+<li>Video tool / Video embed</li>
+<li>PDF tool : Preview / PDF fields mixup</li>
+<li>Audio tool should not be an empty box, but communicate:
+"Audio tool: filename"</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org70c05d2" class="outline-4">
+<h4 id="org70c05d2"><span class="done DONE">DONE</span> Preview of text-based exposition does not update quickly enough</h4>
+</div>
+<div id="outline-container-org658d1a8" class="outline-4">
+<h4 id="org658d1a8">background color of text-based editor should not change when body background-color is set (connected to margin issue)</h4>
+</div>
+<div id="outline-container-orgae5b227" class="outline-4">
+<h4 id="orgae5b227">If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.</h4>
+</div>
+</div>
+</div>
 
-        <div id="outline-container-org9b0560a" class="outline-2">
-            <h2 id="org9b0560a">Bugs</h2>
-            <div class="outline-text-2" id="text-org9b0560a">
-            </div>
-            <div id="outline-container-orgdbb5959" class="outline-3">
-                <h3 id="orgdbb5959">Bugs to be reported</h3>
-                <div class="outline-text-3" id="text-orgdbb5959">
-                </div>
-                <div id="outline-container-org487924d" class="outline-4">
-                    <h4 id="org487924d">Video playback in HTML expositions breaks down on mobile.</h4>
-                    <div class="outline-text-4" id="text-org487924d">
-                    </div>
-                    <div id="outline-container-orgc7a0f15" class="outline-5">
-                        <h5 id="orgc7a0f15">Controls do not work on mobile</h5>
-                    </div>
-                    <div id="outline-container-orgfa993e4" class="outline-5">
-                        <h5 id="orgfa993e4">In Safari this may be caused by a bug in Safari itself: <a href="https://www.ctrl.blog/entry/safari-csp-media-controls.html">https://www.ctrl.blog/entry/safari-csp-media-controls.html</a></h5>
-                    </div>
-                </div>
-                <div id="outline-container-org21f396d" class="outline-4">
-                    <h4 id="org21f396d">Word import in Graphical Editor doesn't use HTML default tool settings</h4>
-                </div>
-                <div id="outline-container-org331a8cc" class="outline-4">
-                    <h4 id="org331a8cc">Scrollbars hidden on Mac OS</h4>
-                </div>
-                <div id="outline-container-org3e5c27b" class="outline-4">
-                    <h4 id="org3e5c27b">HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).</h4>
-                </div>
-                <div id="outline-container-org295bc21" class="outline-4">
-                    <h4 id="org295bc21">change of font in CSS is not accepted after the publication of the exposition: <a href="https://www.researchcatalogue.net/view/861875/861876">https://www.researchcatalogue.net/view/861875/861876</a></h4>
-                </div>
-            </div>
+<div id="outline-container-org58f1b8c" class="outline-2">
+<h2 id="org58f1b8c">Bugs</h2>
+<div class="outline-text-2" id="text-org58f1b8c">
+</div>
+<div id="outline-container-orgf3dabd5" class="outline-3">
+<h3 id="orgf3dabd5">Bugs to be reported</h3>
+<div class="outline-text-3" id="text-orgf3dabd5">
+</div>
+<div id="outline-container-org72a48a4" class="outline-4">
+<h4 id="org72a48a4">Video playback in HTML expositions breaks down on mobile.</h4>
+<div class="outline-text-4" id="text-org72a48a4">
+</div>
+<div id="outline-container-org24cc2d5" class="outline-5">
+<h5 id="org24cc2d5">Controls do not work on mobile</h5>
+</div>
+<div id="outline-container-orgb88353d" class="outline-5">
+<h5 id="orgb88353d">In Safari this may be caused by a bug in Safari itself: <a href="https://www.ctrl.blog/entry/safari-csp-media-controls.html">https://www.ctrl.blog/entry/safari-csp-media-controls.html</a></h5>
+</div>
+</div>
+<div id="outline-container-orgcbbb826" class="outline-4">
+<h4 id="orgcbbb826">Word import in Graphical Editor doesn't use HTML default tool settings</h4>
+</div>
+<div id="outline-container-org9d84f86" class="outline-4">
+<h4 id="org9d84f86">Scrollbars hidden on Mac OS</h4>
+</div>
+<div id="outline-container-org8a67b8e" class="outline-4">
+<h4 id="org8a67b8e">HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).</h4>
+</div>
+<div id="outline-container-orgafb530a" class="outline-4">
+<h4 id="orgafb530a">change of font in CSS is not accepted after the publication of the exposition:  <a href="https://www.researchcatalogue.net/view/861875/861876">https://www.researchcatalogue.net/view/861875/861876</a></h4>
+</div>
+</div>
 
-            <div id="outline-container-org69d0cc5" class="outline-3">
-                <h3 id="org69d0cc5">Reported Bugs</h3>
-                <div class="outline-text-3" id="text-org69d0cc5">
-                </div>
-                <div id="outline-container-orgbf359fd" class="outline-4">
-                    <h4 id="orgbf359fd">Full screen doesn't work with autoplay</h4>
-                </div>
-                <div id="outline-container-org271173c" class="outline-4">
-                    <h4 id="org271173c">metro js not loaded / Icons are not displayed</h4>
-                </div>
-                <div id="outline-container-org835912a" class="outline-4">
-                    <h4 id="org835912a">Published exposition cannot be connected to</h4>
-                </div>
-            </div>
-            <div id="outline-container-orgea547e5" class="outline-3">
-                <h3 id="orgea547e5">Fixed Bugs</h3>
-                <div class="outline-text-3" id="text-orgea547e5">
-                </div>
-                <div id="outline-container-org36b97cd" class="outline-4">
-                    <h4 id="org36b97cd"><span class="done DONE">DONE</span> Fullscreen does not work in embedded videos. example</h4>
-                    <div class="outline-text-4" id="text-org36b97cd">
-                        <p>
-                            <a href="https://www.researchcatalogue.net/editor?research=861875&amp;weave=944937">https://www.researchcatalogue.net/editor?research=861875&amp;weave=944937</a>
-                        </p>
-                    </div>
-                </div>
+<div id="outline-container-org7eb7d1f" class="outline-3">
+<h3 id="org7eb7d1f">Reported Bugs</h3>
+<div class="outline-text-3" id="text-org7eb7d1f">
+</div>
+<div id="outline-container-org97e59c5" class="outline-4">
+<h4 id="org97e59c5">Full screen doesn't work with autoplay</h4>
+</div>
+<div id="outline-container-orgc10dce3" class="outline-4">
+<h4 id="orgc10dce3">metro js not loaded / Icons are not displayed</h4>
+</div>
+<div id="outline-container-orgdf86b8e" class="outline-4">
+<h4 id="orgdf86b8e">Published exposition cannot be connected to</h4>
+</div>
+<div id="outline-container-orgf95bcaa" class="outline-4">
+<h4 id="orgf95bcaa">Footnotes in copied expositions are not editable</h4>
+</div>
+</div>
+<div id="outline-container-org1572f5b" class="outline-3">
+<h3 id="org1572f5b">Fixed Bugs</h3>
+<div class="outline-text-3" id="text-org1572f5b">
+</div>
+<div id="outline-container-orgaeaaae8" class="outline-4">
+<h4 id="orgaeaaae8"><span class="done DONE">DONE</span> Fullscreen does not work in embedded videos. example</h4>
+<div class="outline-text-4" id="text-orgaeaaae8">
+<p>
+<a href="https://www.researchcatalogue.net/editor?research=861875&amp;weave=944937">https://www.researchcatalogue.net/editor?research=861875&amp;weave=944937</a>
+</p>
+</div>
+</div>
 
-                <div id="outline-container-org046f59c" class="outline-4">
-                    <h4 id="org046f59c"><span class="done DONE">DONE</span> Login-as does not work for feide accounts</h4>
-                </div>
-                <div id="outline-container-orgb657ae7" class="outline-4">
-                    <h4 id="orgb657ae7"><span class="done DONE">DONE</span> position of tools can be made negative by mouse, but not edited by number in the style tab. (reporter: JAR, closed but not live)</h4>
-                </div>
-                <div id="outline-container-org1cc52dc" class="outline-4">
-                    <h4 id="org1cc52dc"><span class="done DONE">DONE</span> Fullscreen and Downloads on HTML-import videos (NTNU)</h4>
-                </div>
-                <div id="outline-container-org18c48bc" class="outline-4">
-                    <h4 id="org18c48bc"><span class="done DONE">DONE</span> (could not reproduce) Restoring an exposition while it was "in review", the "in review" status is inherited (SAR-1261)</h4>
-                </div>
-                <div id="outline-container-org8a1ba21" class="outline-4">
-                    <h4 id="org8a1ba21"><span class="done DONE">DONE</span> Footnotes -&gt; dissapearing scrollbar problem when opening certain notes (SAR-1262)</h4>
-                </div>
-                <div id="outline-container-org98d75fd" class="outline-4">
-                    <h4 id="org98d75fd"><span class="done DONE">DONE</span> date of last change not updated for text-based expositions</h4>
-                </div>
-                <div id="outline-container-org021e207" class="outline-4">
-                    <h4 id="org021e207"><span class="done DONE">DONE</span> exporting JAR expositions caused problems with Safari/Chrome (Aubiome project)</h4>
-                </div>
-                <div id="outline-container-orgf8a9b5c" class="outline-4">
-                    <h4 id="orgf8a9b5c"><span class="done DONE">DONE</span> Declining connection request does not have effect (reported)</h4>
-                </div>
-                <div id="outline-container-org18c8990" class="outline-4">
-                    <h4 id="org18c8990"><span class="done DONE">DONE</span> Mail Link for owner with pseudonym on reviewing page (reported)</h4>
-                </div>
-                <div id="outline-container-org917b06f" class="outline-4">
-                    <h4 id="org917b06f"><span class="done DONE">DONE</span> restore deleted tools title column</h4>
-                </div>
-                <div id="outline-container-orgd0df639" class="outline-4">
-                    <h4 id="orgd0df639"><span class="done DONE">DONE</span> Exposition 849232 throws an error on preview</h4>
-                </div>
+<div id="outline-container-org7dc92b8" class="outline-4">
+<h4 id="org7dc92b8"><span class="done DONE">DONE</span> Login-as does not work for feide accounts</h4>
+</div>
+<div id="outline-container-org74faaec" class="outline-4">
+<h4 id="org74faaec"><span class="done DONE">DONE</span> position of tools can be made negative by mouse, but not edited by number in the style tab. (reporter: JAR, closed but not live)</h4>
+</div>
+<div id="outline-container-org31987cc" class="outline-4">
+<h4 id="org31987cc"><span class="done DONE">DONE</span> Fullscreen and Downloads on HTML-import videos (NTNU)</h4>
+</div>
+<div id="outline-container-org70ba769" class="outline-4">
+<h4 id="org70ba769"><span class="done DONE">DONE</span> (could not reproduce) Restoring an exposition while it was "in review", the "in review" status is inherited (SAR-1261)</h4>
+</div>
+<div id="outline-container-org564c8c3" class="outline-4">
+<h4 id="org564c8c3"><span class="done DONE">DONE</span> Footnotes -&gt; dissapearing scrollbar problem when opening certain notes (SAR-1262)</h4>
+</div>
+<div id="outline-container-org26d24e7" class="outline-4">
+<h4 id="org26d24e7"><span class="done DONE">DONE</span> date of last change not updated for text-based expositions</h4>
+</div>
+<div id="outline-container-org39ba5ef" class="outline-4">
+<h4 id="org39ba5ef"><span class="done DONE">DONE</span> exporting JAR expositions caused problems with Safari/Chrome (Aubiome project)</h4>
+</div>
+<div id="outline-container-orgb8ee14e" class="outline-4">
+<h4 id="orgb8ee14e"><span class="done DONE">DONE</span> Declining connection request does not have effect (reported)</h4>
+</div>
+<div id="outline-container-org26e6823" class="outline-4">
+<h4 id="org26e6823"><span class="done DONE">DONE</span> Mail Link for owner with pseudonym on reviewing page (reported)</h4>
+</div>
+<div id="outline-container-org54e4bb7" class="outline-4">
+<h4 id="org54e4bb7"><span class="done DONE">DONE</span> restore deleted tools title column</h4>
+</div>
+<div id="outline-container-orgbba6559" class="outline-4">
+<h4 id="orgbba6559"><span class="done DONE">DONE</span> Exposition 849232 throws an error on preview</h4>
+</div>
 
-                <div id="outline-container-org9ffacc8" class="outline-4">
-                    <h4 id="org9ffacc8"><span class="done DONE">DONE</span> Video player does not respond if autoplay is blocked.</h4>
-                </div>
-                <div id="outline-container-org38615bd" class="outline-4">
-                    <h4 id="org38615bd"><span class="done DONE">DONE</span> Issue name is missing from research page. (also ordering is arbitrary, should either be customizable or make sense) (reporter: NMH)</h4>
-                </div>
-            </div>
+<div id="outline-container-org9a40e46" class="outline-4">
+<h4 id="org9a40e46"><span class="done DONE">DONE</span> Video player does not respond if autoplay is blocked.</h4>
+</div>
+<div id="outline-container-org037dfd8" class="outline-4">
+<h4 id="org037dfd8"><span class="done DONE">DONE</span> Issue name is missing from research page. (also ordering is arbitrary, should either be customizable or make sense) (reporter: NMH)</h4>
+</div>
+</div>
 
-            <div id="outline-container-orga9a81ac" class="outline-3">
-                <h3 id="orga9a81ac">Releases</h3>
-                <div class="outline-text-3" id="text-orga9a81ac">
-                </div>
-                <div id="outline-container-orgb0cef01" class="outline-4">
-                    <h4 id="orgb0cef01"><span class="timestamp-wrapper"><span class="timestamp">&lt;2019-12-14 Sat&gt; </span></span> Text-based editor version 2.1.1</h4>
-                </div>
-            </div>
-        </div>
+<div id="outline-container-orgc4d2651" class="outline-3">
+<h3 id="orgc4d2651">Releases</h3>
+<div class="outline-text-3" id="text-orgc4d2651">
+</div>
+<div id="outline-container-org9a6ecd3" class="outline-4">
+<h4 id="org9a6ecd3"><span class="timestamp-wrapper"><span class="timestamp">&lt;2019-12-14 Sat&gt; </span></span> Text-based editor version 2.1.1</h4>
+</div>
+</div>
+</div>
 
-        <div id="outline-container-org01eb0a3" class="outline-2">
-            <h2 id="org01eb0a3">API testing</h2>
-            <div class="outline-text-2" id="text-org01eb0a3">
-            </div>
-            <div id="outline-container-org99c166a" class="outline-3">
-                <h3 id="org99c166a">setup elm project</h3>
-            </div>
-        </div>
-    </div>
-    <div id="postamble" class="status">
-        <p class="author">Author: RC Team</p>
-        <p class="date">Created: 2020-08-27 Thu 12:55</p>
-        <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
-    </div>
+<div id="outline-container-org9ca243e" class="outline-2">
+<h2 id="org9ca243e">API testing</h2>
+<div class="outline-text-2" id="text-org9ca243e">
+</div>
+<div id="outline-container-org1a00a7e" class="outline-3">
+<h3 id="org1a00a7e">setup elm project</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: RC Team</p>
+<p class="date">Created: 2020-09-08 Tue 11:15</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
 </body>
-
 </html>
