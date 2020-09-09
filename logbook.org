@@ -110,6 +110,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Scrollbars hidden on Mac OS 
 *** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 *** change of font in CSS is not accepted after the publication of the exposition:  https://www.researchcatalogue.net/view/861875/861876
+*** with pseudonyms the link to author's profile does not work
 
 ** Reported Bugs
 *** Full screen doesn't work with autoplay
