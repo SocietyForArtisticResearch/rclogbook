@@ -18,6 +18,7 @@ and lists ideas, features, bugs and problems.
 *** Research Video Integration
 ** Features to be requested
 *** TODO Send email to NTNU admin when FEIDE student has logged in first time, creating a new account
+*** TODO Snapshot stored when admin changes revision state from "in revision" -> "in review"h
 *** Archive expositions
 ** Released features
 *** File size limit HTML import (raise to 10gb)
