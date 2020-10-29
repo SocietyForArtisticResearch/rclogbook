@@ -19,7 +19,8 @@ and lists ideas, features, bugs and problems.
 ** Features to be requested
 *** TODO Send email to NTNU admin when FEIDE student has logged in first time, creating a new account
 *** TODO Media url's in text-based editor, not always translated to live url (https://www.researchcatalogue.net/text-editor/simple-media-resource?research=547070&simple-media=945677)
-*** TODO Snapshot stored when admin changes revision state from "in revision" -> "in review"h
+*** TODO Snapshot stored when admin changes revision state from "in revision" -> "in review"
+*** TODO add trashcan button for comments on pages that can be seen by the commenter.
 *** Archive expositions
 ** Released features
 *** File size limit HTML import (raise to 10gb)
