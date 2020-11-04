@@ -14,12 +14,15 @@ and lists ideas, features, bugs and problems.
 *** Media Repository API
 *** Frontpage Redesign
 *** SARA feed on front page
+*** add support for .art domains
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
 *** TODO Send email to NTNU admin when FEIDE student has logged in first time, creating a new account
 *** TODO Media url's in text-based editor, not always translated to live url (https://www.researchcatalogue.net/text-editor/simple-media-resource?research=547070&simple-media=945677)
-*** TODO Snapshot stored when admin changes revision state from "in revision" -> "in review"h
+*** TODO Snapshot stored when admin changes revision state from "in revision" -> "in review"
+*** TODO add trashcan button for comments on pages that can be seen by the commenter.
+
 *** Archive expositions
 ** Released features
 *** File size limit HTML import (raise to 10gb)
@@ -114,6 +117,9 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 *** change of font in CSS is not accepted after the publication of the exposition:  https://www.researchcatalogue.net/view/861875/861876
 *** with pseudonyms the link to author's profile does not work
+*** A published exposition in JAR does not appear in the public profile of one of the co-author
+exposition: https://www.researchcatalogue.net/view/462390/462391
+author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person=91218
 
 ** Reported Bugs
 *** Full screen doesn't work with autoplay
