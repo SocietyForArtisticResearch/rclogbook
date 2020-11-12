@@ -80,6 +80,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** comments/notes
 **** footnote like comments {^1}
 **** inline comments {<<>>}
+**** {media} tag should be embedded in newlines for proper parsing of markdown paragraphs 
 **** we need to rendered html version, one for public preview not displaying comments and one for editing (with comments)
 *** footnotes
 **** singled shared model for both editors
