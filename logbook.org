@@ -152,6 +152,7 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 
 * Text Editor
 ** Fix issue with old expositions which have a missing "metadata" field in their json
+** Parsing paragraphs can run into trouble if !{media} tag precedes it directly
 * API testing
 ** DONE setup elm project
 
