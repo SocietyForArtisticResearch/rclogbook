@@ -110,6 +110,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Bugs
 ** Bugs to be reported
+*** Background on WORK page is styled incorrectly: https://www.researchcatalogue.net/profile/show-work?work=410001
 *** Video playback in HTML expositions breaks down on mobile.
 **** Controls do not work on mobile 
 **** In Safari this may be caused by a bug in Safari itself: https://www.ctrl.blog/entry/safari-csp-media-controls.html
