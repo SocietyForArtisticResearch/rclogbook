@@ -110,6 +110,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Bugs
 ** Bugs to be reported
+*** Supervised expositions whow up in two places: Research Exposition (collaborated) and Research Expositions.
 *** Background on WORK page is styled incorrectly: https://www.researchcatalogue.net/profile/show-work?work=410001
 *** Video playback in HTML expositions breaks down on mobile.
 **** Controls do not work on mobile 
