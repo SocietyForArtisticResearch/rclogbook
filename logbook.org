@@ -15,10 +15,16 @@ and lists ideas, features, bugs and problems.
 *** Media Repository API
 *** Frontpage Redesign
 *** SARA feed on front page
+*** add support for .art domains
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
 *** TODO Send email to NTNU admin when FEIDE student has logged in first time, creating a new account
+*** TODO Media url's in text-based editor, not always translated to live url (https://www.researchcatalogue.net/text-editor/simple-media-resource?research=547070&simple-media=945677)
+*** TODO Snapshot stored when admin changes revision state from "in revision" -> "in review"
+*** TODO add trashcan button for comments on pages that can be seen by the commenter.
+
+*** Archive expositions
 ** Released features
 *** File size limit HTML import (raise to 10gb)
 *** cms for about, terms and other static pages
@@ -77,6 +83,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** comments/notes
 **** footnote like comments {^1}
 **** inline comments {<<>>}
+**** {media} tag should be embedded in newlines for proper parsing of markdown paragraphs 
 **** we need to rendered html version, one for public preview not displaying comments and one for editing (with comments)
 *** footnotes
 **** singled shared model for both editors
@@ -106,6 +113,8 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Bugs
 ** Bugs to be reported
+*** Supervised expositions whow up in two places: Research Exposition (collaborated) and Research Expositions.
+*** Background on WORK page is styled incorrectly: https://www.researchcatalogue.net/profile/show-work?work=410001
 *** Video playback in HTML expositions breaks down on mobile.
 **** Controls do not work on mobile 
 **** In Safari this may be caused by a bug in Safari itself: https://www.ctrl.blog/entry/safari-csp-media-controls.html
@@ -113,6 +122,10 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Scrollbars hidden on Mac OS 
 *** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 *** change of font in CSS is not accepted after the publication of the exposition:  https://www.researchcatalogue.net/view/861875/861876
+*** with pseudonyms the link to author's profile does not work
+*** A published exposition in JAR does not appear in the public profile of one of the co-author
+exposition: https://www.researchcatalogue.net/view/462390/462391
+author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person=91218
 
 ** Reported Bugs
 *** Full screen doesn't work with autoplay
@@ -141,5 +154,9 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
 
+* Text Editor
+** Fix issue with old expositions which have a missing "metadata" field in their json
+** Parsing paragraphs can run into trouble if !{media} tag precedes it directly
 * API testing
-** setup elm project
+** DONE setup elm project
+
