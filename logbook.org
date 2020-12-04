@@ -1,4 +1,5 @@
 
+
 #+TITLE:     RC Logbook
 #+EXPORT_FILE_NAME: index.html
 #+AUTHOR: RC Team
@@ -113,6 +114,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Bugs
 ** Bugs to be reported
+*** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
 *** Supervised expositions whow up in two places: Research Exposition (collaborated) and Research Expositions.
 *** Background on WORK page is styled incorrectly: https://www.researchcatalogue.net/profile/show-work?work=410001
 *** Video playback in HTML expositions breaks down on mobile.
