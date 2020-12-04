@@ -114,6 +114,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Bugs
 ** Bugs to be reported
+*** If an exposition is unpublished and then republished, it cannot be reviewed (reviewer sees an error when they try to view it)
 *** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
 *** Supervised expositions whow up in two places: Research Exposition (collaborated) and Research Expositions.
 *** Background on WORK page is styled incorrectly: https://www.researchcatalogue.net/profile/show-work?work=410001
