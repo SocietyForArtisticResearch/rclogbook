@@ -1,7 +1,7 @@
 #+TITLE:     RC Logbook
 #+EXPORT_FILE_NAME: index.html
 #+AUTHOR: RC Team
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+SETUPFILE: ./org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS:   H:4 num:nil toc:2
 
 * RC Logbook
