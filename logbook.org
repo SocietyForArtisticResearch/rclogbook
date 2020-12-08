@@ -1,5 +1,3 @@
-
-
 #+TITLE:     RC Logbook
 #+EXPORT_FILE_NAME: index.html
 #+AUTHOR: RC Team
@@ -35,6 +33,7 @@ and lists ideas, features, bugs and problems.
 *** Make exposition version on submit 
 *** Objects can now have a negative position but still be edited.
 ** Ideas
+*** Users to be member of only a portal and not of RC, so they cannot accidentily publish in RC portal.
 *** view media set in exposition, also as replacement for slide show tool
 *** dropbox mode (upload/add but not change) in media repo
 *** Increase audio quality of zencoder (currently, uses pretty low bitrate, filters out everything above 15k)
