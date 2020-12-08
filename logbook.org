@@ -11,10 +11,9 @@ and lists ideas, features, bugs and problems.
 
 * Features and ideas
 ** Features in development
-*** Media Repository API
-*** Frontpage Redesign
-*** SARA feed on front page
-*** add support for .art domains
+*** Media Repository & API
+
+
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
@@ -25,6 +24,9 @@ and lists ideas, features, bugs and problems.
 
 *** Archive expositions
 ** Released features
+*** add support for .art domains
+*** Frontpage Redesign
+*** SARA feed on front page
 *** File size limit HTML import (raise to 10gb)
 *** cms for about, terms and other static pages
 *** feide login for ntnu bergen, nmh
@@ -33,6 +35,7 @@ and lists ideas, features, bugs and problems.
 *** Make exposition version on submit 
 *** Objects can now have a negative position but still be edited.
 ** Ideas
+*** Stronger warning on self-publication. Inform user on DOI being created, and that this means that the reference is permanent.magit
 *** Users to be member of only a portal and not of RC, so they cannot accidentily publish in RC portal.
 *** view media set in exposition, also as replacement for slide show tool
 *** dropbox mode (upload/add but not change) in media repo
