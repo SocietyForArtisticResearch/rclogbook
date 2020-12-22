@@ -97,6 +97,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 **** footnote edit page
 **** reference counting, footnotes need to know where they are used
 ** Problems
+*** Black bars in JWPlayer, which dynamically aplies "object-fit:contain" causing lots o problems. .jwplayer.jw-stretch-uniform video { object-fit: cover !important; } is a solution for now.XS
 *** Line-height in HTML tool can cause issues (there is a tinymce css line that inherits it from parent, but this causes wrong size if there is styling inline the copied html). One solution could be to filter pasted html.
 *** Unpublishing changes publication date when republished (for example 
 *** Collaboration tab needs explanation text about what is what.         :UI:
