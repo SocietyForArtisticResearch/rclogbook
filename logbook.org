@@ -1,4 +1,5 @@
 
+
 #+TITLE:     RC Logbook
 #+EXPORT_FILE_NAME: index.html
 #+AUTHOR: RC Team
@@ -116,12 +117,12 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** DONE Preview of text-based exposition does not update quickly enough
 *** background color of text-based editor should not change when body background-color is set (connected to margin issue)
 *** If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.
-
+    
 * Bugs
 ** Bugs to be reported
 *** If an exposition is unpublished and then republished, it cannot be reviewed (reviewer sees an error when they try to view it)
 *** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
-*** Supervised expositions whow up in two places: Research Exposition (collaborated) and Research Expositions.
+*** Supervised expositions show up in two places: Research Exposition (collaborated) and Research Expositions.
 *** Background on WORK page is styled incorrectly: https://www.researchcatalogue.net/profile/show-work?work=410001
 *** Video playback in HTML expositions breaks down on mobile.
 **** Controls do not work on mobile 
@@ -135,6 +136,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 exposition: https://www.researchcatalogue.net/view/462390/462391
 author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person=91218
 
+*** When user hits a "auth required" they do not return to the same page
 ** Reported Bugs
 *** Full screen doesn't work with autoplay
 *** metro js not loaded / Icons are not displayed
