@@ -38,7 +38,11 @@ and lists ideas, features, bugs and problems.
 *** Make exposition version on submit 
 *** Objects can now have a negative position but still be edited.
 ** Ideas
-*** Stronger warning on self-publication. Inform user on DOI being created, and that this means that the reference is permanent.magit
+*** Reviewing menu
+**** Order of items (add note should be first option)
+**** Add-note keyboard shortcut
+**** remove all notes action
+*** Even stronger warning on self-publication. Inform user on DOI being created, and that this means that the reference is permanent.
 *** Users to be member of only a portal and not of RC, so they cannot accidentily publish in RC portal.
 *** view media set in exposition, also as replacement for slide show tool
 *** dropbox mode (upload/add but not change) in media repo
@@ -167,6 +171,13 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 * Text Editor
 ** Fix issue with old expositions which have a missing "metadata" field in their json
 ** Parsing paragraphs can run into trouble if !{media} tag precedes it directly
-* API testing
-** DONE setup elm project
+
+* Guide
+
+** Add a special section for reviewers/supervising
+*** How to use notes
+*** How to find an exposition
+*** How to accept invitations / what does "deprecated" mean
+*** How to remove notes
+*** Missing pagesc
 
