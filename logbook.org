@@ -143,6 +143,7 @@ author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person
 
 *** When user hits a "auth required" they do not return to the same page
 *** The SARA unsubscribe menu accessed from the link of the announcement does not work
+*** Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
 ** Reported Bugs
 *** Full screen doesn't work with autoplay
 *** metro js not loaded / Icons are not displayed
