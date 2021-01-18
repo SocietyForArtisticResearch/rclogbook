@@ -14,6 +14,9 @@ and lists ideas, features, bugs and problems.
 * Features and ideas
 ** Features in development
 
+*** Media usage
+**** How much media do users have?
+**** Is it used in any exposition or made public?
 *** Archive expositions [ requisted ]
 
 **** Ordering of portals by creation data / or alphabetic
@@ -39,6 +42,9 @@ and lists ideas, features, bugs and problems.
 *** Make exposition version on submit 
 *** Objects can now have a negative position but still be edited.
 ** Ideas
+*** Internal statistics: Portal admins can view how many "expositions in progress" there are, see who is editing something.
+*** How to stimulate early sharing in general?
+*** Ac
 *** Reviewing menu
 **** Order of items (add note should be first option)
 **** Add-note keyboard shortcut
