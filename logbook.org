@@ -194,32 +194,51 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 
 ** FONT FEATURE
 
-We would like to get rid of the Font warning messages, by making sure only fonts are used that RC can host itself :-)
-Currently, there are many fonts (Verdana, Terminal), that are not available everywhere, due to licensing.
+We would like to reduce the "font warning" messages, by making sure
+only fonts are used that RC can host itself. Currently, many of our
+fonts (Verdana, Terminal), are not available everywhere, due to
+licensing. Actually, non of my OS's can display all the fonts available, so this is a
+bit of a problem ;-)
 
-We have selected a list of public domain fonts, which the RC can self-host:
+There are 3 parts to this:
 
-Sans Serif: 
+1. Add self-hosted fonts:
+
+We have selected a list of public domain fonts, which the RC can
+self-host.  These fonts should be added to the HTML/text font dropdown
+and the .woff served with every exposition:
+
+Sans Serif:
     - Nimbus Sans L (https://www.fontsquirrel.com/fonts/nimbus-sans-l)
     - Arimo (https://fonts.google.com/specimen/Arimo)
     - Lato (GF) (https://fonts.google.com/specimen/Lato)
     - Roboto (GF) (https://fonts.google.com/specimen/Roboto)
-    - PT Sans (https://fonts.google.com/specimen/PT+Sans?query=pt+sans)
-    - Open Sans (https://fonts.google.com/specimen/Open+Sans?query=open+sans)
+    - PT Sans
+      (https://fonts.google.com/specimen/PT+Sans?query=pt+sans)
+    - Open Sans
+      (https://fonts.google.com/specimen/Open+Sans?query=open+sans)
 
 Serif:
-    - Libre Baskerville (https://fonts.google.com/specimen/Libre+Baskerville?query=Libre+basker)
-    - Merriweather (GF) (https://fonts.google.com/specimen/Merriweather?query=Merriweather)
+    - Libre Baskerville
+      (https://fonts.google.com/specimen/Libre+Baskerville?query=Libre+basker)
+    - Merriweather (GF)
+      (https://fonts.google.com/specimen/Merriweather?query=Merriweather)
 
 Mono:
-    - Roboto Mono (GF)  https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono
-    - IBM Plex Sans  https://fonts.google.com/specimen/IBM+Plex+Sans?query=ibm
+    - Roboto Mono (GF)
+      https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono
+    - IBM Plex Sans
+      https://fonts.google.com/specimen/IBM+Plex+Sans?query=ibm
 
 
+2. User added fonts:
 
-Also, in the expositions settings it should be possible to upload your own font (.woff), give it a name and then use it in the HTML / Text tools.
+In the expositions settings it should be possible to upload your own
+fonts (.woff), give it a name and then use it in the HTML & Text
+tools. 
 
-For new expositions, these should replace all the fonts.
-For all other expositions, authors should still be able to use the old fonts (they should see both the old and new fonts).
-
+3.
+For new expositions, only make available the self-hosted or user-uploaded fonts.  For
+all older expositions, authors should still be able to use the old
+fonts (so both the old and new fonts).  
 
