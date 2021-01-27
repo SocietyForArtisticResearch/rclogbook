@@ -14,7 +14,11 @@ and lists ideas, features, bugs and problems.
 * Features and ideas
 ** Features in development
 
+
 *** Archive expositions [ requisted ]
+*** Media usage
+**** How much media do users have?
+**** Is it used in any exposition or made public?
 
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
@@ -39,6 +43,9 @@ and lists ideas, features, bugs and problems.
 *** Make exposition version on submit 
 *** Objects can now have a negative position but still be edited.
 ** Ideas
+*** Internal statistics: Portal admins can view how many "expositions in progress" there are, see who is editing something.
+*** How to stimulate early sharing in general?
+*** Ac
 *** Reviewing menu
 **** Order of items (add note should be first option)
 **** Add-note keyboard shortcut
@@ -185,20 +192,35 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 *** How to accept invitations / what does "deprecated" mean
 *** How to remove notes
 *** Missing pagesc
-** Announcement Text
-New RC Feature: Media Repository
 
-We are happy to announce the upcoming release of a new RC feature. The
-new media repository allows RC users to navigate, organize and manage
-all of their media. Each user can browse and search the media that is
-used in their expositions or collect media files and texts with which
-to create an exposition later. The media repository facilitates
-metadata editing, sharing, categorizing data, note taking, personal
-and collective storage. It is the first use of the new media API,
-which will enable the RC to be linked to external repositories as
-well. The repository is fully responsive and will work on mobile
-devices.
+** FONT FEATURE
 
-You can find more information and documentation here: 
-https://guide.researchcatalogue.net/#media-repository
+We would like to get rid of the Font warning messages, by making sure only fonts are used that RC can host itself :-)
+Currently, there are many fonts (Verdana, Terminal), that are not available everywhere, due to licensing.
+
+We have selected a list of public domain fonts, which the RC can self-host:
+
+Sans Serif: 
+    - Nimbus Sans L (https://www.fontsquirrel.com/fonts/nimbus-sans-l)
+    - Arimo (https://fonts.google.com/specimen/Arimo)
+    - Lato (GF) (https://fonts.google.com/specimen/Lato)
+    - Roboto (GF) (https://fonts.google.com/specimen/Roboto)
+    - PT Sans (https://fonts.google.com/specimen/PT+Sans?query=pt+sans)
+    - Open Sans (https://fonts.google.com/specimen/Open+Sans?query=open+sans)
+
+Serif:
+    - Libre Baskerville (https://fonts.google.com/specimen/Libre+Baskerville?query=Libre+basker)
+    - Merriweather (GF) (https://fonts.google.com/specimen/Merriweather?query=Merriweather)
+
+Mono:
+    - Roboto Mono (GF)  https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono
+    - IBM Plex Sans  https://fonts.google.com/specimen/IBM+Plex+Sans?query=ibm
+
+
+
+Also, in the expositions settings it should be possible to upload your own font (.woff), give it a name and then use it in the HTML / Text tools.
+
+For new expositions, these should replace all the fonts.
+For all other expositions, authors should still be able to use the old fonts (they should see both the old and new fonts).
+
 
