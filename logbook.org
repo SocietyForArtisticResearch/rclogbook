@@ -111,6 +111,8 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 **** footnote edit page
 **** reference counting, footnotes need to know where they are used
 ** Problems
+*** clicking tool should no open defaults 
+*** empty tools when canceling tool dialogue
 *** Black bars in JWPlayer, which dynamically aplies "object-fit:contain" causing lots o problems. .jwplayer.jw-stretch-uniform video { object-fit: cover !important; } is a solution for now.XS
 *** Line-height in HTML tool can cause issues (there is a tinymce css line that inherits it from parent, but this causes wrong size if there is styling inline the copied html). One solution could be to filter pasted html.
 *** Unpublishing changes publication date when republished (for example 
@@ -130,7 +132,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** DONE Preview of text-based exposition does not update quickly enough
 *** background color of text-based editor should not change when body background-color is set (connected to margin issue)
 *** If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.
-    
+*** dragging from media list creates tool with media size (not tool defaults)
 * Bugs
 ** Bugs to be reported
 *** If an exposition is unpublished and then republished, it cannot be reviewed (reviewer sees an error when they try to view it)
@@ -142,21 +144,21 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 **** In Safari this may be caused by a bug in Safari itself: https://www.ctrl.blog/entry/safari-csp-media-controls.html
 *** Word import in Graphical Editor doesn't use HTML default tool settings
 *** Scrollbars hidden on Mac OS 
-*** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
-*** change of font in CSS is not accepted after the publication of the exposition:  https://www.researchcatalogue.net/view/861875/861876
-*** with pseudonyms the link to author's profile does not work
+*** [NO BUG] change of font in CSS is not accepted after the publication of the exposition:  https://www.researchcatalogue.net/view/861875/861876
+*** [CANNOT REPRODUCE] with pseudonyms the link to author's profile does not work
+*** When user hits a "auth required" they do not return to the same page
+*** [CASPER] The SARA unsubscribe menu accessed from the link of the announcement does not work
+*** Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
+*** file type detection should not be done by file ending (can create unusable media)
+*** The audio player does not work in https://www.researchcatalogue.net/view/1043548/1043684 VERY IMPORTANT to NOT CHANGE THE PUBLICATION DATE
+*** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041
+*** The account 1116029 Wang Yi-Ru (wangyiru668@163.com) cannot be deleted
+** Reported Bugs
 *** A published exposition in JAR does not appear in the public profile of one of the co-author
 exposition: https://www.researchcatalogue.net/view/462390/462391
 author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person=91218
 
-*** When user hits a "auth required" they do not return to the same page
-*** The SARA unsubscribe menu accessed from the link of the announcement does not work
-*** Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
-** Reported Bugs
-*** Full screen doesn't work with autoplay
-*** metro js not loaded / Icons are not displayed
-*** Published exposition cannot be connected to
-*** Footnotes in copied expositions are not editable
+*** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 ** Fixed Bugs
 *** DONE Fullscreen does not work in embedded videos. example 
 https://www.researchcatalogue.net/editor?research=861875&weave=944937
@@ -176,6 +178,10 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 *** DONE Video player does not respond if autoplay is blocked.
 *** DONE Issue name is missing from research page. (also ordering is arbitrary, should either be customizable or make sense) (reporter: NMH)
 
+*** DONE Full screen doesn't work with autoplay
+*** DONE metro js not loaded / Icons are not displayed
+*** DONE Published exposition cannot be connected to
+*** DONE Footnotes in copied expositions are not editable
 ** Releases
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
 
@@ -197,16 +203,17 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 We would like to reduce the "font warning" messages, by making sure
 only fonts are used that RC can host itself. Currently, many of our
 fonts (Verdana, Terminal), are not available everywhere, due to
-licensing. Actually, non of my OS's can display all the fonts available, so this is a
-bit of a problem ;-)
+licensing. I have also found that Microsoft license does not allow us
+to self-host them. 
 
-There are 3 parts to this:
+There are 3 parts to the solution we had in mind:
 
 1. Add self-hosted fonts:
 
 We have selected a list of public domain fonts, which the RC can
-self-host.  These fonts should be added to the HTML/text font dropdown
-and the .woff served with every exposition:
+self-host, some of them are metrically based on Arial/Helvetica.
+These fonts should be added to the HTML/text font dropdown and the
+.woff served with every exposition:
 
 Sans Serif:
     - Nimbus Sans L (https://www.fontsquirrel.com/fonts/nimbus-sans-l)
