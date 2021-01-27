@@ -148,6 +148,9 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** When user hits a "auth required" they do not return to the same page
 *** [CASPER] The SARA unsubscribe menu accessed from the link of the announcement does not work
 *** Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
+*** The audio player does not work in https://www.researchcatalogue.net/view/1043548/1043684 VERY IMPORTANT to NOT CHANGE THE PUBLICATION DATE
+*** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041
+*** The account 1116029 Wang Yi-Ru (wangyiru668@163.com) cannot be deleted
 ** Reported Bugs
 *** A published exposition in JAR does not appear in the public profile of one of the co-author
 exposition: https://www.researchcatalogue.net/view/462390/462391
