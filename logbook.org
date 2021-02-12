@@ -251,3 +251,19 @@ For new expositions, only make available the self-hosted or user-uploaded fonts.
 all older expositions, authors should still be able to use the old
 fonts (so both the old and new fonts).  
 
+* Unification
+** Media repo integration into graphical editor
+*** Media Tab > Better fix icons for media upload and repo adding
+*** Media Tab > Filters for Tags / Keywords / Type
+*** Media Repo View > Mode where media repo replaces the weave editor, so user can create sets manage tags etc..
+*** Technical > How could state be synced between media lists and repo's ? For example, when user is opening multiple tabs.
+*** Real-time exposition editing (is this possible??)
+
+** Graphical editor fixes
+*** Scrollbars on text tools. User controls width, height is left to content.
+*** Layers: editing part of an exposition where all other things are "locked". Currently tools can be locked
+*** Form / block editor / media list would still be visible. drag and drop.
+*** Table of contents / PAGES
+
+
+
