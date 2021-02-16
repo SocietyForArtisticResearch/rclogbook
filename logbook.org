@@ -153,12 +153,11 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041
 *** IMPORTANT Duplicates of published exposition are not created / do not appear in profile.
 ** Reported Bugs
-*** A published exposition in JAR does not appear in the public profile of one of the co-author
-exposition: https://www.researchcatalogue.net/view/462390/462391
-author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person=91218
-
 *** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 ** Fixed Bugs
+*** DONE A published exposition in JAR does not appear in the public profile of one of the co-author
+exposition: https://www.researchcatalogue.net/view/462390/462391
+author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person=91218
 *** DONE Fullscreen does not work in embedded videos. example 
 https://www.researchcatalogue.net/editor?research=861875&weave=944937
 
