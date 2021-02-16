@@ -1,0 +1,50 @@
+#+TITLE: Merging Graphical and Text-Based Editor
+#+AUTHOR: RC Team
+#+LATEX_CLASS: koma-article
+#+OPTIONS: toc:nil 
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \onehalfspacing
+
+** Introduction :luc:
+
+- Only one editor
+- Editors are no longer to be selected for the entire expositions but
+per page. 
+- Each page of an exposition 
+
+- how to select editor per page?
+- transform one into another?
+
+- tools have index
+
+- text-based as reader/mobile mode, 1d order, can be viewed in two ways
+
+- text format for expositions (json)
+
+
+** Changes to the text-based editor :casper:
+- 1d, form based (in elm)
+
+** Media repo integration :casper:
+*** Media Tab > Better fix icons for media upload and repo adding
+*** Media Tab > Filters for Tags / Keywords / Type
+*** Media Repo View > Mode where media repo replaces the weave editor, so user can create sets manage tags etc..
+*** Technical > How could state be synced between media lists and repo's ? For example, when user is opening multiple tabs.
+*** From set to exposition
+
+** Changes and Adjustments :casper:
+- Scrollbars on text tools. User controls width, height is left to content.
+- Layers: editing part of an exposition where all other things are "locked". Currently tools can be locked
+- Form / block editor / media list would still be visible. drag and drop.
+- Table of contents / 
+- Automatic adding of new pages (prompt user)
+- upload dialogues 
+- different types of import (material to be turned into objects)
+    
+
+** Question :luc:
+- One type for both kinds of pages? (Just different ways of displaying)
+- How to send events to/from elm elements (text-based editor and media
+  repo) to/from graphical editor and media list?
+- Possible function mapping over expositions (filtering, adjustments, ordering etc.).
+- Possible real-time exposition editing.

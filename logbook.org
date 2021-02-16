@@ -51,6 +51,7 @@ and lists ideas, features, bugs and problems.
 **** Order of items (add note should be first option)
 **** Add-note keyboard shortcut
 **** remove all notes action
+**** make impossible notes, impossible (near navigation bar) when clicked, it should come to front?
 *** Even stronger warning on self-publication. Inform user on DOI being created, and that this means that the reference is permanent.
 *** Users to be member of only a portal and not of RC, so they cannot accidentily publish in RC portal.
 *** view media set in exposition, also as replacement for slide show tool
@@ -151,9 +152,15 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
 *** file type detection should not be done by file ending (can create unusable media)
 *** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041
-*** IMPORTANT Duplicates of published exposition are not created / do not appear in profile.
+
 ** Reported Bugs
+<<<<<<< HEAD
+=======
+*** A published exposition in JAR does not appear in the public profile of one of the co-author
+exposition: https://www.researchcatalogue.net/view/462390/462391
+author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person=91218
 *** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
+
 ** Fixed Bugs
 *** DONE A published exposition in JAR does not appear in the public profile of one of the co-author
 exposition: https://www.researchcatalogue.net/view/462390/462391
@@ -246,4 +253,20 @@ tools.
 For new expositions, only make available the self-hosted or user-uploaded fonts.  For
 all older expositions, authors should still be able to use the old
 fonts (so both the old and new fonts).  
+
+* Unification
+** Media repo integration into graphical editor
+*** Media Tab > Better fix icons for media upload and repo adding
+*** Media Tab > Filters for Tags / Keywords / Type
+*** Media Repo View > Mode where media repo replaces the weave editor, so user can create sets manage tags etc..
+*** Technical > How could state be synced between media lists and repo's ? For example, when user is opening multiple tabs.
+*** Real-time exposition editing (is this possible??)
+
+** Graphical editor fixes
+*** Scrollbars on text tools. User controls width, height is left to content.
+*** Layers: editing part of an exposition where all other things are "locked". Currently tools can be locked
+*** Form / block editor / media list would still be visible. drag and drop.
+*** Table of contents / PAGES
+
+
 
