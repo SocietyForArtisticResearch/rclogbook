@@ -30,7 +30,7 @@ establish the order of tools (1D).
   
 ** Changes to the text-based editor :casper:
 
-Ideally the document is no longer one long markdown file, but a linear sequence of RC-tools.
+A linear sequence of RC-tools. All tools can be collapsed into a draggable list of items (like table of contents).
 The graphical exposition is a 2d positioned set of tools.
 
 exposition =
@@ -50,8 +50,8 @@ objects:
 Media tab should allow users to search and filter for media repo tags, keywords.
 
 *** Media Tab > Fix icons for media upload and repo adding
-    The button to add repositories (like Madek), should not be a "+", but a "add repo" text.
-    The "+" should be reserved for uploading media files.
+    The button to add repositories (like Madek), should not be a ' + ', but a "add repo" text.
+    The ' + ' should be reserved for uploading media files.
 
 *** Media Repo View > Mode where media repo replaces the weave editor, so user can create sets manage tags etc..
     Have the repo appear in the graphical editor.... (hmm loading time??)
