@@ -5,19 +5,25 @@
 #+LATEX_HEADER: \usepackage{setspace}
 #+LATEX_HEADER: \onehalfspacing
 
-** Introduction :luc:
+** Introduction
 
-- Only one editor
-- Editors are no longer to be selected for the entire expositions but
-per page. 
-- Each page of an exposition 
+This document describes the merging of the graphical and the
+text-based editors. Besides HTML import and Research Video expositions
+there will only be one editor for creating expositions in the RC which
+the functionality of the current graphical and text-based editors and
+also integrates some of the functionality of the media repository.
 
-- how to select editor per page?
-- transform one into another?
-
-- tools have index
-
-- text-based as reader/mobile mode, 1d order, can be viewed in two ways
+The editors are no longer to be selected for the entire exposition but
+per page. A text-based expositions is essentially a sequence (from now
+on called "1D page") of tools that can be edited using markdown and a
+style sheet. It is thus possible to transform a graphical exposition
+page (from now on called "2D page") into a text-based
+exposition. Hence, each page of an exposition can be editor with both
+editors and authors can decide whether they want each page to be
+viewable in both ways. In this way, the 1D sequence (text-based) can
+also function as a responsive mode for devices with smaller
+displays. From this follows that each tool must have a unique index to
+establish the order of tools (1D).
 
 - text format for expositions (json)
 
@@ -71,9 +77,15 @@ Media tab should allow users to search and filter for media repo tags, keywords.
 - Different types of import (material to be turned into objects)
     
 
-** Question :luc:
-- One type for both kinds of pages? (Just different ways of displaying)
-- How to send events to/from elm elements (text-based editor and media
-  repo) to/from graphical editor and media list?
-- Possible function mapping over expositions (filtering, adjustments, ordering etc.).
-- Possible real-time exposition editing.
+** Questions
+- What kind of type and API can represent and enable both kinds of pages?
+- How can the markdown representation work for the tools in the graphical editor?
+- How to send events to/from elm elements (1D editor and media
+  repo) to/from graphical editor and the media list?
+
+** Questions not directly related to the merging
+- What would be the preconditions and feasibility for a possible
+  real-time exposition editor.
+- We would like to process tools positions and size (2D) in JS. Is it
+  possible to create mapping function over expositions (filtering, adjustments,
+  ordering etc.)?
