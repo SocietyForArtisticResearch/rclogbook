@@ -23,6 +23,9 @@ per page.
 
 
 ** Changes to the text-based editor :casper:
+- Text based editor is an array of objects.
+- Objects can be media or text/html.
+
 - 1d, form based (in elm)
 
 ** Media repo integration :casper:
