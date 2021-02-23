@@ -9,21 +9,22 @@
 
 This document describes the merging of the graphical and the
 text-based editors. Besides HTML import and Research Video expositions
-there will only be one editor for creating expositions in the RC which
-the functionality of the current graphical and text-based editors and
-also integrates some of the functionality of the media repository.
+there will thus only be one editor for creating expositions in the RC,
+which combines the functionality of the current graphical and
+text-based editors and also integrates some of the functionality of
+the media repository.
 
 The editors are no longer to be selected for the entire exposition but
 per page. A text-based expositions is essentially a sequence (from now
 on called "1D page") of tools that can be edited using markdown and a
 style sheet. It is thus possible to transform a graphical exposition
-page (from now on called "2D page") into a text-based
-exposition. Hence, each page of an exposition can be editor with both
+page (from now on called "2D page") into a text-based exposition and
+vice versa . Hence, each page of an exposition can be edited with both
 editors and authors can decide whether they want each page to be
-viewable in both ways. In this way, the 1D sequence (text-based) can
-also function as a responsive mode for devices with smaller
-displays. From this follows that each tool must have a unique index to
-establish the order of tools (1D).
+viewable in one or both ways. In this way, the 1D sequence
+(text-based) can also function as a responsive mode for devices with
+smaller displays. From this follows that each tool must have a unique
+index to establish the order of tools (1D).
 
 - text format for expositions (json)
 
