@@ -207,11 +207,14 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 
 We would like to reduce the "font warning" messages, by making sure
 only fonts are used that RC can host itself. Currently, many of our
-fonts (Verdana, Terminal), are not available everywhere, due to
-licensing. I have also found that Microsoft license does not allow us
-to self-host them. 
+fonts (Verdana, Terminal), are not available everywhere, and we cannot
+host them either as far as I understand?  This is what Microsoft say
+about it:
+https://docs.microsoft.com/en-us/typography/fonts/font-faq#redistribution-and-extended-rights
+Correct font is kind of important, and authors are often not aware that the
+wrong font may be displayed for many of their readers.
 
-There are 3 parts to the solution we had in mind:
+The solution we have in mind consists of 3 parts:
 
 1. Add self-hosted fonts:
 
@@ -239,20 +242,31 @@ Serif:
 Mono:
     - Roboto Mono (GF)
       https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono
-    - IBM Plex Sans
-      https://fonts.google.com/specimen/IBM+Plex+Sans?query=ibm
+    - Courier Prime
+      https://www.fontsquirrel.com/fonts/courier-prime?q%5Bterm%5D=courier&q%5Bsearch_check%5D=Y
+ 
 
 
 2. User added fonts:
-
-In the expositions settings it should be possible to upload your own
-fonts (.woff), give it a name and then use it in the HTML & Text
-tools. 
+In the expositions settings (edit metadata, edit research dialog) we
+would like to add a "Fonts" tab, where the user can can upload
+(multiple) fonts (.woff or .ttf). There should also be a required name
+field, under which they will appear in the font dropdown of HTML and
+text tools.  These fonts are local to the exposition and served by RC
+when the exposition is viewed. We should add a warning that the user
+is responsible for checking that the license of the font allows using
+it.
 
 3.
-For new expositions, only make available the self-hosted or user-uploaded fonts.  For
-all older expositions, authors should still be able to use the old
-fonts (so both the old and new fonts).  
+For new expositions, only make available the self-hosted and the
+user-uploaded fonts. For all older expositions, authors should still
+be able to use the old fonts (so both the old and new fonts). This
+includes expositions that have been restored from an old snapshot.
+
+Does this solution make sense to you as well, is it possible?
+
+
+
 
 * Unification
 ** Media repo integration into graphical editor
