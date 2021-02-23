@@ -37,7 +37,7 @@ exposition =
     MetaData [ object1, object2, object3 ..  , objectN ] Style
   
 objects:
-   Text (markdown)
+   Text (markdown) 
    HTML
    Media tool -> 
       Picture / Video / Audio /  Pdf / Media-set / Embed
