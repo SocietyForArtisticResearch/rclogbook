@@ -9,46 +9,84 @@
 
 This document describes the merging of the graphical and the
 text-based editors. Besides HTML import and Research Video expositions
-there will only be one editor for creating expositions in the RC which
-the functionality of the current graphical and text-based editors and
-also integrates some of the functionality of the media repository.
+there will thus only be one editor for creating expositions in the RC,
+which combines the functionality of the current graphical and
+text-based editors and also integrates some of the functionality of
+the media repository.
 
 The editors are no longer to be selected for the entire exposition but
 per page. A text-based expositions is essentially a sequence (from now
-on called "1D page") of tools that can be edited using markdown and a
-style sheet. It is thus possible to transform a graphical exposition
-page (from now on called "2D page") into a text-based
-exposition. Hence, each page of an exposition can be editor with both
-editors and authors can decide whether they want each page to be
-viewable in both ways. In this way, the 1D sequence (text-based) can
-also function as a responsive mode for devices with smaller
-displays. From this follows that each tool must have a unique index to
-establish the order of tools (1D).
+on called "1D page") of tools that can be edited using markdown (or a
+similar textual representation) and a style sheet. It is thus possible
+to transform a graphical exposition page (from now on called "2D
+page") into a text-based exposition and vice versa. Hence, each page
+of an exposition can be edited with both editors and authors can
+decide whether they want each page to be viewable in one or both
+ways. In this way, the 1D sequence (text-based) can also function as a
+responsive mode for devices with smaller displays. From this follows
+that each tool must have a unique index to establish the order of
+tools (1D).
 
-- text format for expositions (json)
 
+** Textual Serialization
+page1 = [
+ {
+ type: html
+, content: ...
+}
+,{
+type: audio
+, mediaid: id
+, caption: ...
+, 1dclass: 
+, 2dclass:
+}
+,{
 
+}
+]
+*** TODO textual serialization format for expositions (json)
+
+  
 ** Changes to the text-based editor :casper:
+
 - Text based editor is an array of objects.
 - Objects can be media or text/html.
 
 - 1d, form based (in elm)
 
+
 ** Media repo integration :casper:
-*** Media Tab > Better fix icons for media upload and repo adding
-*** Media Tab > Filters for Tags / Keywords / Type
+
+Media tab should allow users to search and filter for media repo tags, keywords.
+
+*** Media Tab > Fix icons for media upload and repo adding
+    The button to add repositories (like Madek), should not be a ' + ', but a "add repo" text.
+    The ' + ' should be reserved for uploading media files.
+
 *** Media Repo View > Mode where media repo replaces the weave editor, so user can create sets manage tags etc..
+    Have the repo appear in the graphical editor.... (hmm loading time??)
+
 *** Technical > How could state be synced between media lists and repo's ? For example, when user is opening multiple tabs.
+websockets (?)
 *** From set to exposition
 
 ** Changes and Adjustments :casper:
-- Scrollbars on text tools. User controls width, height is left to content.
-- Layers: editing part of an exposition where all other things are "locked". Currently tools can be locked
+- Scrollbars on text tools. User defines width, height is defined by length of content (basically a CSS of "height:unset")
+  This behavior should be default, but can be turned of in "options" menu.
+- Layers
+  * all objects have a layer number
+  * only one layer can be edited at a time
+  * you can turn the visibility of a layer on or off
+- Edit tab, selecting a tool directly loads editor in sidebar.
+- Keyboard cursors nudging tools.
 - Form / block editor / media list would still be visible. drag and drop.
-- Table of contents / 
-- Automatic adding of new pages (prompt user)
+- Table of contents:
+  - When a new page is created, the RC asks wether it should be added to the table of contents.
+  - Pages that are not linked should have a different color.
 - upload dialogues 
-- different types of import (material to be turned into objects)
+  When a tool is added, prompt user to upload a file directly.
+- Different types of import (material to be turned into objects)
     
 
 ** Questions
