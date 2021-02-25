@@ -104,7 +104,7 @@ improve the user experience of the interface:
     
 
 ** Questions
-ma
+
 - How can the markdown representation work for the tools in the graphical editor?
 - How to send events to/from elm elements (1D editor and media
   repo) to/from graphical editor and the media list?
