@@ -50,26 +50,24 @@ type: audio
   
 ** Changes to the text-based editor :casper:
 
-- Text based editor is an array of objects.
-- Objects can be media or text/html.
+The text based editor will be merged into the graphical editor. Users
+will be able to choose when they create a page if they want to use the graphical
+editor or the text based. The text based editor allows the user to edit the exposition as
+a list of text and other objects (the tools as we find them in the graphical editor).
+Text can be edited as markdown or as plain HTML.
 
-- 1d, form based (in elm)
-
+The text based editor uses the same media list as the graphical
+editor. Ideally, users will be able to drag and drop media from the
+media list directly into the markdown. The editing of text-based
+expositions should be more form based (each paragraph is a proper own
+object, to avoid the newline ambiguity of Markodwn).
 
 ** Media repo integration :casper:
 
-Media tab should allow users to search and filter for media repo tags, keywords.
-
-*** Media Tab > Fix icons for media upload and repo adding
-    The button to add repositories (like Madek), should not be a ' + ', but a "add repo" text.
-    The ' + ' should be reserved for uploading media files.
-
-*** Media Repo View > Mode where media repo replaces the weave editor, so user can create sets manage tags etc..
-    Have the repo appear in the graphical editor.... (hmm loading time??)
-
-*** Technical > How could state be synced between media lists and repo's ? For example, when user is opening multiple tabs.
-websockets (?)
-*** From set to exposition
+The structure of the media repository should be integrated in the
+exposition editor. Users will be able to browse through their media using
+tags, keywords and upload date.  It should also be easy to switch between
+the editor and the media repository.
 
 ** Changes and Adjustments :casper:
 
@@ -100,8 +98,7 @@ improve the user experience of the interface:
   pages are visible or not, pages that are listed in the TOC should have a
   different color in the pages list.
 
-
-- Quicker workflow when creating tools, when a new tool is added,
+- A quicker workflow when creating tools, when a new tool is added,
   directly prompt user to upload a file.
 
     
