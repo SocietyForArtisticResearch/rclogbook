@@ -151,7 +151,8 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** [CASPER] The SARA unsubscribe menu accessed from the link of the announcement does not work
 *** Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
 *** file type detection should not be done by file ending (can create unusable media)
-*** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041
+*** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041 
+*** URGENT more users with Windows 10 cannot open the menu of expositions or profiles. 
 
 ** Reported Bugs
 <<<<<<< HEAD
