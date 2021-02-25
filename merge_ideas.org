@@ -72,25 +72,42 @@ websockets (?)
 *** From set to exposition
 
 ** Changes and Adjustments :casper:
-- Scrollbars on text tools. User defines width, height is defined by length of content (basically a CSS of "height:unset")
-  This behavior should be default, but can be turned of in "options" menu.
-- Layers
-  * all objects have a layer number
-  * only one layer can be edited at a time
-  * you can turn the visibility of a layer on or off
-- Edit tab, selecting a tool directly loads editor in sidebar.
-- Keyboard cursors nudging tools.
-- Form / block editor / media list would still be visible. drag and drop.
-- Table of contents:
-  - When a new page is created, the RC asks wether it should be added to the table of contents.
-  - Pages that are not linked should have a different color.
-- upload dialogues 
-  When a tool is added, prompt user to upload a file directly.
-- Different types of import (material to be turned into objects)
+
+This is a list of smaller improvements to the graphical editor, to
+improve the user experience of the interface:
+
+- A change in the way that text tools are sized, which often results
+  in unintended scrollbars. Currently, the user has to specify the
+  size of the tool including its height. If the height was not
+  correct, this results in a scrollbar. Instead, the user should
+  define only the width of the tool and the height is defined by the
+  content. This behavior (auto-height) can be turned on or off by the
+  user.  
+
+- Enable users to work in layers: to make it easier to make complex graphical layouts, we would like
+  to add a layer functionality. Any tool can only be part of one layer
+  at a time. By default, all layers are shown, but one can only edit
+  the tools in the "active" layer.  author can only change the objects
+  one layer at a time.
+
+- Quicker access to editing the properties of a tool, by means of editing them
+  in a permanent sidebar.
+
+- Allow users to move tools pixel-by-pixel by using the keyboard arrow keys.
+ 
+- When a new page is created, the RC should ask the user if it should
+  be added to the table of contents. To make it easier to see what
+  pages are visible or not, pages that are listed in the TOC should have a
+  different color in the pages list.
+
+
+- Quicker workflow when creating tools, when a new tool is added,
+  directly prompt user to upload a file.
+
     
 
 ** Questions
-- What kind of type and API can represent and enable both kinds of pages?
+ma
 - How can the markdown representation work for the tools in the graphical editor?
 - How to send events to/from elm elements (1D editor and media
   repo) to/from graphical editor and the media list?
