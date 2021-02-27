@@ -16,11 +16,11 @@ the media repository.
 
 The editors are no longer to be selected for the entire exposition but
 per page. A text-based expositions is essentially a sequence (from now
-on called "1D page") of tools that can be edited using markdown (or a
-similar textual representation) and a style sheet. It is thus possible
-to transform a graphical exposition page (from now on called "2D
-page") into a text-based exposition and vice versa. Hence, each page
-of an exposition can be edited with both editors and authors can
+on called "1D page") of tools that can be edited using a textual
+serialization format (see below) and a style sheet. It is thus
+possible to transform a graphical exposition page (from now on called
+"2D page") into a text-based exposition and vice versa. Hence, each
+page of an exposition can be edited with both editors and authors can
 decide whether they want each page to be viewable in one or both
 ways. In this way, the 1D sequence (text-based) can also function as a
 responsive mode for devices with smaller displays. From this follows
@@ -29,50 +29,50 @@ tools (1D).
 
 
 ** Textual Serialization
-page1 = [
- {
- type: html
-, content: ...
-}
-,{
-type: audio
-, mediaid: id
-, caption: ...
-, 1dclass: 
-, 2dclass:
-}
-,{
+The textual serialization format will allow editing, creating and
+generating expositions using external tools and editors. It is a
+JSON-file containing and array of objects for each page, that is an
+array of arrays of objects. The order of the objects in the array is
+their order in the 1D display. The objects have the following fields:
 
-}
-]
-*** TODO textual serialization format for expositions (json)
+- type: (text, audio, video, pdf, image, embed, shape)
+- (if applicable) text type: html, markdown
+- (if applicable) text content
+- (if applicable) media id
+- (for media, not text): caption
+- 1dclass list: css class for 1d 
+- 2dclass list: css class for 2d 
+- 2d position and size
 
+2D tools are not distinguished from their media in this format. It
+should be possible derive such a representation form existing and new
+2D and 1D expositions and change/edit them on the basis of this
+representation.
   
-** Changes to the text-based editor :casper:
+** Changes to the Text-Based (1D) Editor 
 
-The text based editor will be merged into the graphical editor. Users
-will be able to choose when they create a page if they want to use the graphical
-editor or the text based. The text based editor allows the user to edit the exposition as
-a list of text and other objects (the tools as we find them in the graphical editor).
-Text can be edited as markdown or as plain HTML.
+The text-based editor will be merged into the graphical editor. Users
+will be able to choose when they create a page if they want to use the
+graphical editor or the text-based. The 1D editor allows the user to
+edit the exposition as a list of texts and other objects (the tools as
+we find them in the graphical (2D) editor).  Text can be edited as
+markdown or as plain HTML.
 
-The text based editor uses the same media list as the graphical
-editor. Ideally, users will be able to drag and drop media from the
-media list directly into the markdown. The editing of text-based
-expositions should be more form based (each paragraph is a proper own
-object, to avoid the newline ambiguity of Markodwn).
+The 1D editor uses the same media list as the graphical editor. The
+editing of text-based expositions should be form based (each paragraph
+is a proper own object, to avoid the newline ambiguity of markodwn).
 
-** Media repo integration :casper:
+** Media Repository Integration 
 
 The structure of the media repository should be integrated in the
-exposition editor. Users will be able to browse through their media using
-tags, keywords and upload date.  It should also be easy to switch between
-the editor and the media repository.
+exposition editor. Users will be able to browse through their media
+using tags, keywords and upload date.  It should also be easy and fast
+to switch between the editor and the media repository.
 
-** Changes and Adjustments :casper:
+** Changes and Adjustments
 
-This is a list of smaller improvements to the graphical editor, to
-improve the user experience of the interface:
+This is a list of smaller improvements to the graphical (2D0 editor,
+to improve the user experience of the interface:
 
 - A change in the way that text tools are sized, which often results
   in unintended scrollbars. Currently, the user has to specify the
@@ -82,21 +82,22 @@ improve the user experience of the interface:
   content. This behavior (auto-height) can be turned on or off by the
   user.  
 
-- Enable users to work in layers: to make it easier to make complex graphical layouts, we would like
-  to add a layer functionality. Any tool can only be part of one layer
-  at a time. By default, all layers are shown, but one can only edit
-  the tools in the "active" layer.  author can only change the objects
-  one layer at a time.
+- Enable users to work in layers: to make it easier to make complex
+  graphical layouts, we would like to add a layer functionality. Any
+  tool can only be part of one layer at a time. By default, all layers
+  are shown, but one can only edit the tools in the "active" layer.
+  author can only change the objects one layer at a time.
 
-- Quicker access to editing the properties of a tool, by means of editing them
-  in a permanent sidebar.
+- Quicker access to editing the properties of a tool, by means of
+  editing them in a permanent sidebar.
 
-- Allow users to move tools pixel-by-pixel by using the keyboard arrow keys.
+- Allow users to move tools pixel-by-pixel by using the keyboard arrow
+  keys.
  
 - When a new page is created, the RC should ask the user if it should
   be added to the table of contents. To make it easier to see what
-  pages are visible or not, pages that are listed in the TOC should have a
-  different color in the pages list.
+  pages are visible or not, pages that are listed in the TOC should
+  have a different color in the pages list.
 
 - A quicker workflow when creating tools, when a new tool is added,
   directly prompt user to upload a file.
@@ -106,12 +107,18 @@ improve the user experience of the interface:
 ** Questions
 
 - How can the markdown representation work for the tools in the graphical editor?
-- How to send events to/from elm elements (1D editor and media
-  repo) to/from graphical editor and the media list?
+- How to send events to/from elm elements (1D editor and media repo)
+  to/from graphical editor and the media list?
 
 ** Questions not directly related to the merging
 - What would be the preconditions and feasibility for a possible
   real-time exposition editor.
 - We would like to process tools positions and size (2D) in JS. Is it
-  possible to create mapping function over expositions (filtering, adjustments,
-  ordering etc.)?
+  possible to create mapping function over expositions (filtering,
+  adjustments, ordering etc.)?
+
+** Development Task Assignments
+- The overall integration and all changes to the 2D editor, as well as
+  the generation and processing of the serialization format for the 2D
+  editor are to be done by the Mühlschlegels.
+- The 1D editor will be implemented by Döbereiner and Schipper.
