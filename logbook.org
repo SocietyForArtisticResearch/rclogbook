@@ -23,6 +23,7 @@ and lists ideas, features, bugs and problems.
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
+*** TODO Media of sets cannot be selected within tools, this is a problem for slideshow tool.
 *** TODO Picture tool should use tool defaut instead of intrensic size 
 *** TODO Implement fix for font-boosting both in text-based and graphical expositions
   #container-weave .tool-text {
@@ -168,11 +169,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** URGENT more users with Windows 10 cannot open the menu of expositions or profiles. 
 
 ** Reported Bugs
-<<<<<<< HEAD
-=======
-*** A published exposition in JAR does not appear in the public profile of one of the co-author
-exposition: https://www.researchcatalogue.net/view/462390/462391
-author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person=91218
+*** Profile > Exposition groups are not saved between sessions for normal users
 *** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 
 ** Fixed Bugs
