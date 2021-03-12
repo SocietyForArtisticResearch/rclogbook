@@ -15,7 +15,7 @@ and lists ideas, features, bugs and problems.
 ** Features in development
 
 
-*** Archive expositions [ requisted ]
+*** Archive expositions [ requested ]
 *** Media usage
 **** How much media do users have?
 **** Is it used in any exposition or made public?
@@ -23,6 +23,8 @@ and lists ideas, features, bugs and problems.
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
+*** TODO fix default license in media repo
+*** TODO fix default license in text editor (or maybe postpone?)
 *** TODO Media of sets cannot be selected within tools, this is a problem for slideshow tool.
 *** TODO Picture tool should use tool defaut instead of intrensic size 
 *** TODO Implement fix for font-boosting both in text-based and graphical expositions
