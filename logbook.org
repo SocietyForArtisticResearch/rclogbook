@@ -39,7 +39,8 @@ and lists ideas, features, bugs and problems.
       -moz-text-size-adjust: none;
       -ms-text-size-adjust: none;
    }
-
+*** TODO dublicate accounts (automatic detection)
+*** TODO collaboration, finding the right person if you only have an email.
 *** TODO Media that is used in exposition currenty throws an error that includes "mail" support link, but it is an expected mistake by the user.
 *** TODO Add "published by" to articles on the frontpage, published by JAR for example.
 *** TODO Send email to NTNU admin when FEIDE student has logged in first time, creating a new account
