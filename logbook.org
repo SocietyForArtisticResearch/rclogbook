@@ -15,7 +15,7 @@ and lists ideas, features, bugs and problems.
 ** Features in development
 
 
-*** Archive expositions [ requisted ]
+*** Archive expositions [ requested ]
 *** Media usage
 **** How much media do users have?
 **** Is it used in any exposition or made public?
@@ -23,6 +23,9 @@ and lists ideas, features, bugs and problems.
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
+*** TODO fix default license in media repo
+*** TODO fix default license in text editor (or maybe postpone?)
+*** TODO Media of sets cannot be selected within tools, this is a problem for slideshow tool.
 *** TODO Picture tool should use tool defaut instead of intrensic size 
 *** TODO Implement fix for font-boosting both in text-based and graphical expositions
   #container-weave .tool-text {
@@ -36,7 +39,9 @@ and lists ideas, features, bugs and problems.
       -moz-text-size-adjust: none;
       -ms-text-size-adjust: none;
    }
-
+*** TODO dublicate accounts (automatic detection)
+*** TODO collaboration, finding the right person if you only have an email.
+*** TODO Media that is used in exposition currenty throws an error that includes "mail" support link, but it is an expected mistake by the user.
 *** TODO Add "published by" to articles on the frontpage, published by JAR for example.
 *** TODO Send email to NTNU admin when FEIDE student has logged in first time, creating a new account
 *** TODO Media url's in text-based editor, not always translated to live url (https://www.researchcatalogue.net/text-editor/simple-media-resource?research=547070&simple-media=945677)
@@ -168,11 +173,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** URGENT more users with Windows 10 cannot open the menu of expositions or profiles. 
 
 ** Reported Bugs
-<<<<<<< HEAD
-=======
-*** A published exposition in JAR does not appear in the public profile of one of the co-author
-exposition: https://www.researchcatalogue.net/view/462390/462391
-author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person=91218
+*** Profile > Exposition groups are not saved between sessions for normal users
 *** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 
 ** Fixed Bugs
@@ -205,6 +206,7 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
 
 * Text Editor
+** Codemirror gets slowed down, when there is lots of video tags used.
 ** Fix issue with old expositions which have a missing "metadata" field in their json
 ** Parsing paragraphs can run into trouble if !{media} tag precedes it directly
 
