@@ -23,6 +23,7 @@ and lists ideas, features, bugs and problems.
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
+*** TODO fix "add all" button in collaboration message dialog
 *** TODO fix default license in media repo
 *** TODO fix default license in text editor (or maybe postpone?)
 *** TODO Media of sets cannot be selected within tools, this is a problem for slideshow tool.
@@ -300,3 +301,4 @@ Does this solution make sense to you as well, is it possible?
 
 
 
+    
