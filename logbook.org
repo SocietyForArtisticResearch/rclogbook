@@ -62,7 +62,8 @@ and lists ideas, features, bugs and problems.
 *** Make exposition version on submit 
 *** Objects can now have a negative position but still be edited.
 ** Ideas
-*** Managed expositions, how to make it easier within education to track an exposition and prevent students from making new ones?
+*** Search box in navigation bar, so you can search in a single exposition. Future: expositions as searchable databases.
+P*** Managed expositions, how to make it easier within education to track an exposition and prevent students from making new ones?
 *** Different versions of an exposition, that are somehow linked (show that something is just a newer version of an older exposition)
 *** Internal statistics: Portal admins can view how many "expositions in progress" there are, see who is editing something.
 *** How to stimulate early sharing in general?
