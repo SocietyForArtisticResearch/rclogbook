@@ -13,8 +13,9 @@ and lists ideas, features, bugs and problems.
 
 * Features and ideas
 ** Features in development
-
-
+*** Undo and nicer versioning of exposition content
+*** Integration of 1d and 2d editors, so pages can have a responsive version (and the other way arround)
+*** Google fonts (safe fonts)
 *** Archive expositions [ requested ]
 *** Media usage
 **** How much media do users have?
@@ -23,12 +24,23 @@ and lists ideas, features, bugs and problems.
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
+*** TODO (casper) Media that is used in exposition currently throws an error that includes "mail" support link, but it is an expected mistake by the user.
+*** TODO duplicate pages option within editors
 *** TODO fix "add all" button in collaboration message dialog
-*** TODO fix default license in media repo
 *** TODO fix default license in text editor (or maybe postpone?)
-*** TODO Media of sets cannot be selected within tools, this is a problem for slideshow tool.
-*** TODO Picture tool should use tool defaut instead of intrensic size 
-*** TODO Implement fix for font-boosting both in text-based and graphical expositions
+*** TODO Picture tool should use tool default instead of intrensic size 
+*** TODO dublicate accounts (automatic detection)
+*** TODO collaboration, finding the right person if you only have an email.
+*** TODO Add "published by" to articles on the frontpage, published by JAR for example.
+*** TODO Send email to NTNU admin when FEIDE student has logged in first time, creating a new account
+*** TODO Media url's in text-based editor, not always translated to live url (https://www.researchcatalogue.net/text-editor/simple-media-resource?research=547070&simple-media=945677)
+*** TODO Snapshot stored when admin changes revision state from "in revision" -> "in review"
+*** TODO add trashcan button for comments on pages that can be seen by the commenter.
+
+** Released features
+*** Better error reporting 
+*** Admins can view snapshots that were made on submission.
+*** Implement fix for font-boosting both in text-based and graphical expositions
   #container-weave .tool-text {
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
@@ -40,16 +52,8 @@ and lists ideas, features, bugs and problems.
       -moz-text-size-adjust: none;
       -ms-text-size-adjust: none;
    }
-*** TODO dublicate accounts (automatic detection)
-*** TODO collaboration, finding the right person if you only have an email.
-*** TODO Media that is used in exposition currenty throws an error that includes "mail" support link, but it is an expected mistake by the user.
-*** TODO Add "published by" to articles on the frontpage, published by JAR for example.
-*** TODO Send email to NTNU admin when FEIDE student has logged in first time, creating a new account
-*** TODO Media url's in text-based editor, not always translated to live url (https://www.researchcatalogue.net/text-editor/simple-media-resource?research=547070&simple-media=945677)
-*** TODO Snapshot stored when admin changes revision state from "in revision" -> "in review"
-*** TODO add trashcan button for comments on pages that can be seen by the commenter.
-
-** Released features
+*** fix default license in media repo
+*** Media of sets cannot be selected within tools, this is a problem for slideshow tool.
 *** Media Repository & API
 *** add support for .art domains
 *** Frontpage Redesign
