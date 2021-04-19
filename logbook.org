@@ -14,7 +14,8 @@ and lists ideas, features, bugs and problems.
 * Features and ideas
 ** Features in development
 *** Undo and nicer versioning of exposition content
-*** Integration of 1d and 2d editors, so pages can have a responsive version (and the other way arround)
+*** Merging of text-based and graphical editors, so pages within an exposition can have a responsive version (and the other way arround)
+    Also, gives option to start as text based and later work it into a less linear version.
 *** Google fonts (safe fonts)
 *** Archive expositions [ requested ]
 *** Media usage
