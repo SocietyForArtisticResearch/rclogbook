@@ -25,6 +25,8 @@ and lists ideas, features, bugs and problems.
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
+*** TODO merge keywords of expositions and media repo
+*** TODO open up media repo repository (clean up old state first)
 *** TODO searchbox is missing from front-page in responsive mode
 *** TODO (casper) Media that is used in exposition currently throws an error that includes "mail" support link, but it is an expected mistake by the user.
 *** TODO duplicate pages option within editors
