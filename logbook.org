@@ -182,7 +182,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** file type detection should not be done by file ending (can create unusable media)
 *** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041 
 *** URGENT more users with Windows 10 cannot open the menu of expositions or profiles. 
-*** In media repository, public share does not work. When clicking it asks for login.
+*** In media repository, public share of set does not work. When clicking it asks for login.
 
 ** Reported Bugs
 *** Profile > Exposition groups are not saved between sessions for normal users
