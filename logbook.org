@@ -13,9 +13,13 @@ and lists ideas, features, bugs and problems.
 
 * Features and ideas
 ** Features in development
-*** Undo and nicer versioning of exposition content
-*** Merging of text-based and graphical editors, so pages within an exposition can have a responsive version (and the other way arround)
-    Also, gives option to start as text based and later work it into a less linear version.
+*** Graphical editor: undo button and better versioning of exposition content
+*** Merging of text-based and graphical editors
+    - allows authors to define both a graphical 2d layout and a responsive version of the same page content
+    - the responsive version of an exposition is the same as text based, now understood as a linear ordering of tools
+    - mixing the two formats within one exposition
+    - fascilitate migrate pages between the two formats
+    - the author decides which layouts are available to the reader
 *** Google fonts (safe fonts)
 *** Archive expositions [ requested ]
 *** Media usage
@@ -26,9 +30,8 @@ and lists ideas, features, bugs and problems.
 *** Research Video Integration
 ** Features to be requested
 *** TODO merge keywords of expositions and media repo
-*** TODO open up media repo repository (clean up old state first)
+*** TODO make the media repo github repository public (clean up old state first)
 *** TODO searchbox is missing from front-page in responsive mode
-*** TODO (casper) Media that is used in exposition currently throws an error that includes "mail" support link, but it is an expected mistake by the user.
 *** TODO duplicate pages option within editors
 *** TODO fix "add all" button in collaboration message dialog
 *** TODO fix default license in text editor (or maybe postpone?)
