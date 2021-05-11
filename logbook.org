@@ -169,6 +169,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** dragging from media list creates tool with media size (not tool defaults)
 * Bugs
 ** Bugs to be reported
+*** ?? Footnote issue -> if a label with text across two lines/paragraphs, creating a footnote with all highlighted seems to create two footnotes with different ID. I didn’t test this further, but seems odd.
 *** If an exposition is unpublished and then republished, it cannot be reviewed (reviewer sees an error when they try to view it)
 *** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
 *** Supervised expositions show up in two places: Research Exposition (collaborated) and Research Expositions.
@@ -177,7 +178,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 **** Controls do not work on mobile 
 **** In Safari this may be caused by a bug in Safari itself: https://www.ctrl.blog/entry/safari-csp-media-controls.html
 *** Word import in Graphical Editor doesn't use HTML default tool settings
-*** Scrollbars hidden on Mac OS 
+*** Scrollbars hhidden on Mac OS 
 *** [NO BUG] change of font in CSS is not accepted after the publication of the exposition:  https://www.researchcatalogue.net/view/861875/861876
 *** [CANNOT REPRODUCE] with pseudonyms the link to author's profile does not work
 *** When user hits a "auth required" they do not return to the same page
