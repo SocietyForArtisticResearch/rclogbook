@@ -186,14 +186,15 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
 *** file type detection should not be done by file ending (can create unusable media)
 *** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041 
-*** URGENT more users with Windows 10 cannot open the menu of expositions or profiles. 
-*** In media repository, public share of set does not work. When clicking it asks for login.
+
 
 ** Reported Bugs
 *** Profile > Exposition groups are not saved between sessions for normal users
 *** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 
 ** Fixed Bugs
+
+*** WILLNOTFIX more users with Windows 10 cannot open the menu of expositions or profiles. (This is a sideeffect of weird virus js inject behaviour kasperski, users should want to turn it off, since it is pretty nasty). <https://superuser.com/questions/981959/how-to-disable-kaspersky-antivirus-javascript-injection>
 
 *** DONE public sets are visible also to users that are not logged in.
 *** DONE Fixed problem play tool state not being correct if another video stops the play tool.
