@@ -1,5 +1,6 @@
 
 
+
 #+TITLE:     RC Logbook
 #+EXPORT_FILE_NAME: index.html
 #+AUTHOR: RC Team
@@ -29,15 +30,14 @@ and lists ideas, features, bugs and problems.
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
+*** TODO add grouping tags for users within portal user list (for organising)
 *** TODO merge keywords of expositions and media repo
 *** TODO make the media repo github repository public (clean up old state first)
-*** TODO searchbox is missing from front-page in responsive mode
 *** TODO duplicate pages option within editors
 *** TODO fix "add all" button in collaboration message dialog
-*** TODO collaboration notifications removed from messages, should be prompt or notification. State should be live from the current state.
-*** TODO fix default license in text editor (or maybe postpone?)
+*** TODO collaboration notifications removed from messages, should be prompt or notification. State should be live from the current state
 *** TODO Picture tool should use tool default instead of intrensic size 
-*** TODO dublicate accounts (automatic detection)
+*** TODO duplicate accounts (automatic detection)
 *** TODO collaboration, finding the right person if you only have an email.
 *** TODO Add "published by" to articles on the frontpage, published by JAR for example.
 *** TODO Send email to NTNU admin when FEIDE student has logged in first time, creating a new account
@@ -46,6 +46,8 @@ and lists ideas, features, bugs and problems.
 *** TODO add trashcan button for comments on pages that can be seen by the commenter.
 
 ** Released features
+*** DONE searchbox is missing from front-page in responsive mode
+*** DONE fix default license in text editor (or maybe postpone?)
 *** Better error reporting 
 *** Admins can view snapshots that were made on submission.
 *** Implement fix for font-boosting both in text-based and graphical expositions
