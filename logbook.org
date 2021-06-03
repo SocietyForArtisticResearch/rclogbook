@@ -30,6 +30,7 @@ and lists ideas, features, bugs and problems.
 **** Ordering of portals by creation data / or alphabetic
 *** Research Video Integration
 ** Features to be requested
+*** TODO When user uploads a video with a problematic resolution, show user hint what would work.
 *** TODO add grouping tags for users within portal user list (for organising)
 *** TODO merge keywords of expositions and media repo
 *** TODO make the media repo github repository public (clean up old state first)
