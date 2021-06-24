@@ -28,10 +28,11 @@ and lists ideas, features, bugs and problems.
 **** Is it used in any exposition or made public?
 
 **** Ordering of portals by creation data / or alphabetic
-*** Research Video Integration
+
 ** Features to be requested
 *** TODO When user uploads a video with a problematic resolution, show user hint what would work.
 *** TODO add grouping tags for users within portal user list (for organising)
+*** TODO Publication tags for exposition, to separate it from keywords
 *** TODO merge keywords of expositions and media repo
 *** TODO make the media repo github repository public (clean up old state first)
 *** TODO duplicate pages option within editors
@@ -169,6 +170,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** DONE Preview of text-based exposition does not update quickly enough
 *** background color of text-based editor should not change when body background-color is set (connected to margin issue)
 *** If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.
+*** Footnotes can be copied from other expositions, which will result in dead links if the original exposition is made private
 *** dragging from media list creates tool with media size (not tool defaults)
 * Bugs
 ** Bugs to be reported
@@ -230,6 +232,7 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 *** DONE Published exposition cannot be connected to
 *** DONE Footnotes in copied expositions are not editable
 ** Releases
+*** DONE Research Video Integration
 *** <2019-12-14 Sat> Text-based editor version 2.1.1
 
 * Text Editor
