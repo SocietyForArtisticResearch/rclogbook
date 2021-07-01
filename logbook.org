@@ -191,7 +191,8 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
 *** file type detection should not be done by file ending (can create unusable media)
 *** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041 
-
+*** Export as pdf does not work in the text editor
+*** Should videos be exported as well when export as epub in the text editor? Now they are not exported
 
 ** Reported Bugs
 *** https://www.researchcatalogue.net/view/433112/616170 footnote problem (reported by Tero)
