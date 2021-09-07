@@ -2,7 +2,7 @@
 
 
 #+TITLE:     RC Logbook
-`#+EXPORT_FILE_NAME: index.html
+#+EXPORT_FILE_NAME: index.html
 #+AUTHOR: RC Team
 #+SETUPFILE: ./org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS:   H:4 num:nil toc:2
@@ -14,16 +14,16 @@ and lists ideas, features, bugs and problems.
 
 * Features and ideas
 ** Features in development
-*** Graphical editor: undo button and better versioning of exposition content
-*** Merging of text-based and graphical editors
+*** Graphical editor: undo button and better versioning of exposition content :requested:
+*** Merging of text-based and graphical editors  :in_progress:
     - allows authors to define both a graphical 2d layout and a responsive version of the same page content
     - the responsive version of an exposition is the same as text based, now understood as a linear ordering of tools
     - mixing the two formats within one exposition
     - fascilitate migrate pages between the two formats
     - the author decides which layouts are available to the reader
-*** Google fonts (safe fonts)
-*** Archive expositions [ requested ]
-*** Media usage
+*** Google fonts (safe fonts) :in_progess:
+*** Archive expositions :requested:
+*** Media usage :on_hold:
 **** How much media do users have?
 **** Is it used in any exposition or made public?
 
@@ -32,8 +32,14 @@ and lists ideas, features, bugs and problems.
 ** Features to be requested
 *** TODO Fix multilingual abstracts
    1. The main language as selected by the author should also define which language of the abstract is shown as the primary on the META page.
+<<<<<<< HEAD
    2. The main language of an exposition should be displayed in the metadata page.
    3. The abstract displayed in the Navigation bar abstract box should be the same as the language of the exposition, and there should be a dropdown to switch between languages (if translations are available).
+=======
+   2. Authors should be able to edit/add the translations of abstracts.
+   3. The main language of an exposition should be displayed in the metadata page.
+   4. The abstract displayed in the Navigation bar abstract box should be the same as the language of the exposition, and there should be a dropdown to switch between languages (if translations are available).
+*** TODO Make downloading big exports more fail safe: big expositions cause timeouts, like https://www.researchcatalogue.net/view/568007/568008 
 *** TODO When user uploads a video with a problematic resolution, show user hint what would work.
 *** TODO add grouping tags for users within portal user list (for organising)
 *** TODO Publication tags for exposition, to separate it from keywords
@@ -52,8 +58,8 @@ and lists ideas, features, bugs and problems.
 *** TODO add trashcan button for comments on pages that can be seen by the commenter.
 
 ** Released features
-*** DONE searchbox is missing from front-page in responsive mode
-*** DONE fix default license in text editor (or maybe postpone?)
+*** searchbox is missing from front-page in responsive mode
+*** fix default license in text editor (or maybe postpone?)
 *** Better error reporting 
 *** Admins can view snapshots that were made on submission.
 *** Implement fix for font-boosting both in text-based and graphical expositions
@@ -83,7 +89,7 @@ and lists ideas, features, bugs and problems.
 *** Objects can now have a negative position but still be edited.
 ** Ideas
 *** Search box in navigation bar, so you can search in a single exposition. Future: expositions as searchable databases.
-*** Managed expositions, how to make it easier within education to track an exposition and prevent students from making new ones?
+*** Managed expositions: how to make it easier within education to track an exposition and prevent students from making new ones?
 *** Different versions of an exposition, that are somehow linked (show that something is just a newer version of an older exposition)
 *** Internal statistics: Portal admins can view how many "expositions in progress" there are, see who is editing something.
 *** How to stimulate early sharing in general?
@@ -94,6 +100,7 @@ and lists ideas, features, bugs and problems.
 **** Add-note keyboard shortcut
 **** remove all notes action
 **** make impossible notes, impossible (near navigation bar) when clicked, it should come to front?
+*** Instead of forbidding deletion of media used as preview/background, ask the user for permission to delete it and automatically deselect/delink.
 *** Even stronger warning on self-publication. Inform user on DOI being created, and that this means that the reference is permanent.
 *** Users to be member of only a portal and not of RC, so they cannot accidentily publish in RC portal.
 *** view media set in exposition, also as replacement for slide show tool
