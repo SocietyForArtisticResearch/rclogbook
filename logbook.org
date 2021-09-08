@@ -95,6 +95,7 @@ and lists ideas, features, bugs and problems.
 **** remove all notes action
 **** make impossible notes, impossible (near navigation bar) when clicked, it should come to front?
 *** Instead of forbidding deletion of media used as preview/background, ask the user for permission to delete it and automatically deselect/delink.
+    Tool could use the default generated preview image or just become black.
 *** Even stronger warning on self-publication. Inform user on DOI being created, and that this means that the reference is permanent.
 *** Users to be member of only a portal and not of RC, so they cannot accidentily publish in RC portal.
 *** view media set in exposition, also as replacement for slide show tool
