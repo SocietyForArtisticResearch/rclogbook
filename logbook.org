@@ -157,6 +157,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 **** footnote edit page
 **** reference counting, footnotes need to know where they are used
 ** Problems
+*** table border-collapse is default in editor, but not in rendered exposition.
 *** clicking tool should not open defaults 
 *** empty tools when canceling tool dialogue
 *** Black bars in JWPlayer, which dynamically aplies "object-fit:contain" causing lots o problems. .jwplayer.jw-stretch-uniform video { object-fit: cover !important; } is a solution for now.
