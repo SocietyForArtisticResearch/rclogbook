@@ -28,6 +28,7 @@ and lists ideas, features, bugs and problems.
 **** Is it used in any exposition or made public?
 
 **** Ordering of portals by creation data / or alphabetic
+**** Accessible color schemes. https://toolness.github.io/accessible-color-matrix/
 
 ** Features to be requested
 *** TODO Fix multilingual abstracts
