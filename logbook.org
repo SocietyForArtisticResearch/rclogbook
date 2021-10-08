@@ -66,18 +66,18 @@ and lists ideas, features, bugs and problems.
 **** search box in navigation bar, so you can search in a single exposition. Future: expositions as searchable databases.
 **** make keywords mandatory on publication
 *** Profile page :roadmap:
-- better display of objects without image, "tumblr" page
-- state share status clearly (no gray color)
-- display abstract on/off setting
-- show keywords on the object in the box
-- easier group management: tagging for profile organization / change group button for item
-- collapse all groups 
-- cleanup of CV details edit profile
-- customizable display of external publications (easy way)
-- see list of collab/co-autherships of user (ex. academia.org)
-- see own followers
-- follow institutions
-- portal profile pages 
+**** better display of objects without image, "tumblr" page
+**** state share status clearly (no gray color)
+**** state display abstract on/off setting
+**** state show keywords on the object in the box
+**** state easier group management: tagging for profile organization / change group button for item
+**** state collapse all groups 
+**** state cleanup of CV details edit profile
+**** state customizable display of external publications (easy way)
+**** state see list of collab/co-autherships of user (ex. academia.org)
+**** state see own followers
+**** state follow institutions
+**** state portal profile pages 
 *** Managed expositions: how to make it easier within education to track an exposition and prevent students from making new ones?
 *** Different versions of an exposition, that are somehow linked (show that something is just a newer version of an older exposition)
 *** Internal statistics: Portal admins can view how many "expositions in progress" there are, see who is editing something.
