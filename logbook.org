@@ -12,24 +12,25 @@
 This file contains information on the current state of RC developments
 and lists ideas, features, bugs and problems.
 
-* Features and ideas
-** Features in development
-*** Graphical editor: undo button and better versioning of exposition content :requested:
-*** Merging of text-based and graphical editors  :in_progress:
+* In development
+** Graphical editor: undo button and better versioning of exposition content :requested:
+** Merging of text-based and graphical editors                  :in_progress:
     - allows authors to define both a graphical 2d layout and a responsive version of the same page content
     - the responsive version of an exposition is the same as text based, now understood as a linear ordering of tools
     - mixing the two formats within one exposition
     - fascilitate migrate pages between the two formats
     - the author decides which layouts are available to the reader
-*** Google fonts (safe fonts) :in_progess:
-*** Archive expositions :requested:
-*** Media usage :on_hold:
+** Google fonts (safe fonts)                                     :in_progess:
+** Archive expositions                                            :requested:
+** Media usage                                                      :on_hold:
 **** How much media do users have?
 **** Is it used in any exposition or made public?
 
 **** Ordering of portals by creation data / or alphabetic
 **** Accessible color schemes. https://toolness.github.io/accessible-color-matrix/
 
+
+* Ideas
 ** Features to be requested
 *** TODO Fix multilingual abstracts
    1. The main language of an exposition should be displayed in the metadata page.
@@ -40,7 +41,8 @@ and lists ideas, features, bugs and problems.
 *** TODO Publication tags for exposition, to separate it from keywords
 *** TODO merge keywords of expositions and media repo
 *** TODO make the media repo github repository public (clean up old state first)
-*** TODO duplicate pages option within editors
+*** TODO duplicate page command within editors (instead of copy paste tools)
+*** TODO Work migration to media repo set
 *** TODO fix "add all" button in collaboration message dialog
 *** TODO collaboration notifications removed from messages, should be prompt or notification. State should be live from the current state
 *** TODO Picture tool should use tool default instead of intrensic size 
@@ -52,45 +54,34 @@ and lists ideas, features, bugs and problems.
 *** TODO Snapshot stored when admin changes revision state from "in revision" -> "in review"
 *** TODO add trashcan button for comments on pages that can be seen by the commenter.
 
-** Released features
-*** searchbox is missing from front-page in responsive mode
-*** fix default license in text editor (or maybe postpone?)
-*** Better error reporting 
-*** Admins can view snapshots that were made on submission.
-*** Implement fix for font-boosting both in text-based and graphical expositions
-  #container-weave .tool-text {
-    -webkit-text-size-adjust: none;
-    -moz-text-size-adjust: none;
-    -ms-text-size-adjust: none;
- }
-
-   #container-weave .tool-simpletext {
-      -webkit-text-size-adjust: none;
-      -moz-text-size-adjust: none;
-      -ms-text-size-adjust: none;
-   }
-*** fix default license in media repo
-*** Media of sets cannot be selected within tools, this is a problem for slideshow tool.
-*** Media Repository & API
-*** add support for .art domains
-*** Frontpage Redesign
-*** SARA feed on front page
-*** File size limit HTML import (raise to 10gb)
-*** cms for about, terms and other static pages
-*** feide login for ntnu bergen, nmh
-*** terms of use simplification, checkbox online
-*** css of profile page responsiveness
-*** Make exposition version on submit 
-*** Objects can now have a negative position but still be edited.
 ** Ideas
-*** Search box in navigation bar, so you can search in a single exposition. Future: expositions as searchable databases.
+*** Search :roadmap: 
+**** full text search
+**** keyword search and list
+**** keyword pages, follow and show authors that use the keywords.
+**** feeds that are integrated with front page + infinite scroll + organised favourates, personal notes with it
+**** sortable search results
+**** searchable inbox
+**** adding time/date filter in advanced search.
+**** search box in navigation bar, so you can search in a single exposition. Future: expositions as searchable databases.
+**** make keywords mandatory on publication
+*** Profile page :roadmap:
+- better display of objects without image, "tumblr" page
+- state share status clearly (no gray color)
+- display abstract on/off setting
+- show keywords on the object in the box
+- easier group management: tagging for profile organization / change group button for item
+- collapse all groups 
+- cleanup of CV details edit profile
+- customizable display of external publications (easy way)
+- see list of collab/co-autherships of user (ex. academia.org)
+- see own followers
+- follow institutions
+- portal profile pages 
 *** Managed expositions: how to make it easier within education to track an exposition and prevent students from making new ones?
 *** Different versions of an exposition, that are somehow linked (show that something is just a newer version of an older exposition)
 *** Internal statistics: Portal admins can view how many "expositions in progress" there are, see who is editing something.
-*** How to stimulate early sharing in general?
-*** Ac (??)
 *** Reviewing menu
-
 **** Order of items (add note should be first option)
 **** Add-note keyboard shortcut
 **** remove all notes action
@@ -101,29 +92,13 @@ and lists ideas, features, bugs and problems.
 *** Users to be member of only a portal and not of RC, so they cannot accidentily publish in RC portal.
 *** view media set in exposition, also as replacement for slide show tool
 *** dropbox mode (upload/add but not change) in media repo
-*** Increase audio quality of zencoder (currently, uses pretty low bitrate, filters out everything above 15k)
-*** Search through expositions
-*** Adding time/date filter in advanced search.
-*** Undo button
+*** Increase audio quality of zencoder in videos (currently, uses pretty low bitrate, filters out everything above 15k)
 *** Markdown in text/html tools
 *** Text tools size warnings, current lack of limits stimulates risky designs.
-*** Keywords: 
-- Make keywords mandatory on publication
-- Have a combination of closed and open vocabularies
-*** versions visible for admins - for later reference/compare changes
 *** exposition metadata export for journals
 *** journal submission as application
 *** application programs
 save vs. submit, inform/warn people when deadline is close, message on save that this is not submitting
-*** searchable inbox
-*** object preview images without fixed width/height ratio. 
-*** profile page
-- better display of objects without image, "tumblr" page
-- state share status clearly
-- display abstract on/off setting
-- show keywords
-- tagging for profile organization / change group button for item
-- collapse all groups
 *** dates of expositions: 
 - remove free "date" field. 
 - add automatic creation date
@@ -141,16 +116,14 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 - group locking (moving constallation)
 - prototype tool/template
 - copy-paste style tab settings
-*** Archiving function
-- this is an alternative form of publication where it is fixed, but only visible to portal admins. 
-- probably needs some extra meta-data like department / context in which the archived exposition was produced.
 *** Sortable list view of expositions on "Recent activity" "Recent publications", "My Profile" and other locations in RC.
-*** elm text editor based on https://github.com/SidneyNemzer/elm-text-editor
-*** comments/notes
+*** elm text editor features:
+**** elm text editor based on https://github.com/SidneyNemzer/elm-text-editor - https://jxxcarlson.github.io/app/text-editor/index.html
+**** comments/notes
 **** footnote like comments {^1}
 **** inline comments {<<>>}
 **** {media} tag should be embedded in newlines for proper parsing of markdown paragraphs 
-**** we need to rendered html version, one for public preview not displaying comments and one for editing (with comments)
+**** we need two rendered html versions, one for public preview not displaying comments and one for editing (with comments)
 *** footnotes
 **** singled shared model for both editors
 **** "portable footnotes" : footnotes as exposition "snippets" that can be organised in the Repo and used between different expositions and weaves.
@@ -159,99 +132,132 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 **** footnote edit page
 **** reference counting, footnotes need to know where they are used
 ** Problems
-*** table border-collapse is default in editor, but not in rendered exposition.
-*** clicking tool should not open defaults 
-*** empty tools when canceling tool dialogue
+
+*** front page - cycle through columns doesn't work (other columns update as well)
+*** front page, abstracts cropped to elipses.
+*** Empty tools when canceling tool dialogue
+*** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
+*** When user hits a "auth required" they do not return to the same page
+*** Adding a page, not showing up in Table of Contents, RC should ask when create page.
+*** PDF tool : Preview / PDF fields are confusing users
+*** Audio tool should not be an empty box, but communicate: "Audio tool: filename"
+*** Clicking tool should not open defaults 
+*** copy media from one expo to another causes clones/mess
+*** What is maximum number of tools that can be copy-pasted
+*** CSS: table border-collapse is default in editor, but not in rendered exposition.
 *** Black bars in JWPlayer, which dynamically aplies "object-fit:contain" causing lots o problems. .jwplayer.jw-stretch-uniform video { object-fit: cover !important; } is a solution for now.
 *** Line-height in HTML tool can cause issues (there is a tinymce css line that inherits it from parent, but this causes wrong size if there is styling inline the copied html). One solution could be to filter pasted html.
-*** Unpublishing changes publication date when republished (for example 
+*** Unpublishing changes publication date when republished (for example) superadmins should be able to change it.a 
 *** Collaboration tab needs explanation text about what is what.         :UI:
-*** Supervisor permissions behave weird on publication etc.
-*** No quick way for supervisor to delete/manage all their notes.
-*** Notes list
-*** Private note
+*** Supervisor permissions behave weird on publication etc. How 
+*** Notes
+**** No quick way for supervisor to delete/manage all their notes. 
+**** Notes list
+**** Private note
 *** No duplicate names for expositions
-*** Common user confusions:
-- Adding a page, not showing up in Table of Contents
-- Work / Exposition
-- Video tool / Video embed
-- PDF tool : Preview / PDF fields mixup
-- Audio tool should not be an empty box, but communicate:
-  "Audio tool: filename"
-*** DONE Preview of text-based exposition does not update quickly enough
+*** Video tool / Video embed user awareness
 *** background color of text-based editor should not change when body background-color is set (connected to margin issue)
 *** If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.
 *** Footnotes can be copied from other expositions, which will result in dead links if the original exposition is made private
 *** dragging from media list creates tool with media size (not tool defaults)
-* Bugs
-** Bugs to be reported
+*** If footnote is copied from exposition to another, it can cause permission problems (dead x's). We forbid it or support it.
 *** ?? Footnote issue -> if a label with text across two lines/paragraphs, creating a footnote with all highlighted seems to create two footnotes with different ID. I didn’t test this further, but seems odd.
 *** If an exposition is unpublished and then republished, it cannot be reviewed (reviewer sees an error when they try to view it)
-*** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
 *** Supervised expositions show up in two places: Research Exposition (collaborated) and Research Expositions.
-*** Background on WORK page is styled incorrectly: https://www.researchcatalogue.net/profile/show-work?work=410001
 *** Video playback in HTML expositions breaks down on mobile.
 **** Controls do not work on mobile 
 **** In Safari this may be caused by a bug in Safari itself: https://www.ctrl.blog/entry/safari-csp-media-controls.html
 *** Word import in Graphical Editor doesn't use HTML default tool settings
-*** Scrollbars hhidden on Mac OS 
-*** [NO BUG] change of font in CSS is not accepted after the publication of the exposition:  https://www.researchcatalogue.net/view/861875/861876
-*** [CANNOT REPRODUCE] with pseudonyms the link to author's profile does not work
-*** When user hits a "auth required" they do not return to the same page
-*** [CASPER] The SARA unsubscribe menu accessed from the link of the announcement does not work
-*** Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
+*** change of font in CSS is not accepted after the publication of the exposition:  https://www.researchcatalogue.net/view/861875/861876
 *** file type detection should not be done by file ending (can create unusable media)
 *** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041 
-*** Export as pdf does not work in the text editor
 *** Import as pdf should not be allowed
 *** Should videos be exported as well when export as epub in the text editor? Now they are not exported
 
+
 ** Reported Bugs
-*** https://www.researchcatalogue.net/view/433112/616170 footnote problem (reported by Tero)
-*** Profile > Exposition groups are not saved between sessions for normal users
-*** HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 
-** Fixed Bugs
+* Releases
+** DONE HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 
-*** WILLNOTFIX more users with Windows 10 cannot open the menu of expositions or profiles. (This is a sideeffect of weird virus js inject behaviour kasperski, users should want to turn it off, since it is pretty nasty). <https://superuser.com/questions/981959/how-to-disable-kaspersky-antivirus-javascript-injection>
 
-*** DONE public sets are visible also to users that are not logged in.
-*** DONE Fixed problem play tool state not being correct if another video stops the play tool.
-*** DONE Fixed problem with videos in footnotes that continued played when closed
-*** DONE fixed problem in graphical expos' where font sizes where blown up on mobile, causing layout problems
-*** DONE A published exposition in JAR does not appear in the public profile of one of the co-author
+** DONE Profile > Exposition groups are not saved between sessions for normal users
+** DONE Export as pdf does not work in the text editor
+** DONE WILLNOTFIX more users with Windows 10 cannot open the menu of expositions or profiles. (This is a sideeffect of weird virus js inject behaviour kasperski, users should want to turn it off, since it is pretty nasty). <https://superuser.com/questions/981959/how-to-disable-kaspersky-antivirus-javascript-injection>
+** DONE public sets are visible also to users that are not logged in.
+** DONE Fixed problem play tool state not being correct if another video stops the play tool.
+** DONE Fixed problem with videos in footnotes that continued played when closed
+** DONE fixed problem in graphical expos' where font sizes where blown up on mobile, causing layout problems
+** DONE A published exposition in JAR does not appear in the public profile of one of the co-author
 exposition: https://www.researchcatalogue.net/view/462390/462391
 author: Mariella Greil-Moebius https://www.researchcatalogue.net/profile/?person=91218
-*** DONE Fullscreen does not work in embedded videos. example 
+** DONE Fullscreen does not work in embedded videos. example 
 https://www.researchcatalogue.net/editor?research=861875&weave=944937
 
-*** DONE Login-as does not work for feide accounts
-*** DONE position of tools can be made negative by mouse, but not edited by number in the style tab. (reporter: JAR, closed but not live)
-*** DONE Fullscreen and Downloads on HTML-import videos (NTNU)
-*** DONE (could not reproduce) Restoring an exposition while it was "in review", the "in review" status is inherited (SAR-1261)
-*** DONE Footnotes -> dissapearing scrollbar problem when opening certain notes (SAR-1262)
-*** DONE date of last change not updated for text-based expositions 
-*** DONE exporting JAR expositions caused problems with Safari/Chrome (Aubiome project)
-*** DONE Declining connection request does not have effect (reported)
-*** DONE Mail Link for owner with pseudonym on reviewing page (reported)
-*** DONE restore deleted tools title column
-*** DONE Exposition 849232 throws an error on preview
+** DONE Login-as does not work for feide accounts
+** DONE position of tools can be made negative by mouse, but not edited by number in the style tab. (reporter: JAR, closed but not live)
+** DONE Fullscreen and Downloads on HTML-import videos (NTNU)
+** DONE (could not reproduce) Restoring an exposition while it was "in review", the "in review" status is inherited (SAR-1261)
+** DONE Footnotes -> dissapearing scrollbar problem when opening certain notes (SAR-1262)
+** DONE date of last change not updated for text-based expositions 
+** DONE exporting JAR expositions caused problems with Safari/Chrome (Aubiome project)
+** DONE Declining connection request does not have effect (reported)
+** DONE Mail Link for owner with pseudonym on reviewing page (reported)
+** DONE restore deleted tools title column
+** DONE Exposition 849232 throws an error on preview
 
-*** DONE Video player does not respond if autoplay is blocked.
-*** DONE Issue name is missing from research page. (also ordering is arbitrary, should either be customizable or make sense) (reporter: NMH)
+** DONE Video player does not respond if autoplay is blocked.
+** DONE Issue name is missing from research page. (also ordering is arbitrary, should either be customizable or make sense) (reporter: NMH)
 
-*** DONE Full screen doesn't work with autoplay
-*** DONE metro js not loaded / Icons are not displayed
-*** DONE Published exposition cannot be connected to
-*** DONE Footnotes in copied expositions are not editable
-** Releases
-*** DONE Research Video Integration
-*** <2019-12-14 Sat> Text-based editor version 2.1.1
+** DONE Full screen doesn't work with autoplay
+** DONE metro js not loaded / Icons are not displayed
+** DONE Published exposition cannot be connected to
+** DONE Footnotes in copied expositions are not editable
+
+** DONE Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
+** [CASPER] The SARA unsubscribe menu accessed from the link of the announcement does not work
+** DONE Preview of text-based exposition does not update quickly enough
+** Archiving function
+- this is an alternative form of publication where it is fixed, but only visible to portal admins. 
+- probably needs some extra meta-data like department / context in which the archived exposition was produced.
+** versions visible for admins - for later reference/compare changes 
+** DONE Research Video Integration
+** <2019-12-14 Sat> Text-based editor version 2.1.1
+** searchbox is missing from front-page in responsive mode
+** fix default license in text editor (or maybe postpone?)
+** Better error reporting 
+** Admins can view snapshots that were made on submission.
+** Implement fix for font-boosting both in text-based and graphical expositions
+  #container-weave .tool-text {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+ }
+
+   #container-weave .tool-simpletext {
+      -webkit-text-size-adjust: none;
+      -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+   }
+** fix default license in media repo
+** Media of sets cannot be selected within tools, this is a problem for slideshow tool.
+** Media Repository & API
+** add support for .art domains
+** Frontpage Redesign
+** SARA feed on front page
+** File size limit HTML import (raise to 10gb)
+** cms for about, terms and other static pages
+** feide login for ntnu bergen, nmh
+** terms of use simplification, checkbox online
+** css of profile page responsiveness
+** Make exposition version on submit 
+** Objects can now have a negative position but still be edited.
 
 * Text Editor
 ** Codemirror gets slowed down, when there is lots of video tags used.
 ** Fix issue with old expositions which have a missing "metadata" field in their json
 ** Parsing paragraphs can run into trouble if !{media} tag precedes it directly
+
 
 * Guide
 
@@ -327,19 +333,8 @@ Does this solution make sense to you as well, is it possible?
 
 
 
-* Unification
-** Media repo integration into graphical editor
-*** Media Tab > Better fix icons for media upload and repo adding
-*** Media Tab > Filters for Tags / Keywords / Type
-*** Media Repo View > Mode where media repo replaces the weave editor, so user can create sets manage tags etc..
-*** Technical > How could state be synced between media lists and repo's ? For example, when user is opening multiple tabs.
-*** Real-time exposition editing (is this possible??)
 
-** Graphical editor fixes
-*** Scrollbars on text tools. User controls width, height is left to content.
-*** Layers: editing part of an exposition where all other things are "locked". Currently tools can be locked
-*** Form / block editor / media list would still be visible. drag and drop.
-*** Table of contents / PAGES
+
 
 
 
