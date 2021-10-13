@@ -1,6 +1,3 @@
-
-
-
 #+TITLE:     RC Logbook
 #+EXPORT_FILE_NAME: index.html
 #+AUTHOR: RC Team
@@ -58,22 +55,27 @@ and lists ideas, features, bugs and problems.
 how to make it easier within education to track an exposition and prevent students from making new ones?
 ** different versions of an exposition
 that are somehow linked (show that something is just a newer version of an older exposition)
-** internal statistics
+** internal portal stats
 Portal admins can view how many "expositions in progress" there are, see who is editing something.
 ** reviewing menu
 *** Order of items (add note should be first option)
 *** Add-note keyboard shortcut
 *** remove all notes action
 *** make impossible notes, impossible (near navigation bar) when clicked, it should come to front?
-** instead of forbidding deletion of media used as preview/background, ask the user for permission to delete it and automatically deselect/delink.
-    If no background image is selected, it should either display the generated thumb or the background color in style.
-** even stronger warning on self-publication. Inform user on DOI being created, and that this means that the reference is permanent.
+** UX deleting media in editor 
+   instead of forbidding deletion of media used as preview/background, ask the user for permission to delete it and automatically deselect/delink.
+   If no background image is selected, it should either display the generated thumb or the background color in style.
+** stronger warning on self-publication. 
+   Inform user on DOI being created, and that this means that the reference is permanent.
 ** users to be member of only a portal and not of RC, so they cannot accidentily publish in RC portal.
 ** view media set in exposition, also as replacement for slide show tool
-** dropbox mode (upload/add but not change) in media repo
-** increase audio quality of zencoder in videos (currently, uses pretty low bitrate, filters out everything above 15k)
+** media repo dropbox mode 
+   (upload/add but not change) in media repo
+** audio quality of zencoder in videos 
+   (currently, uses pretty low bitrate, filters out everything above 15k)
 ** markdown in text/html tools
-** text tools size warnings, current lack of limits stimulates risky designs.
+** text tools size warnings
+   current lack of limits stimulates risky designs
 ** exposition metadata export for journals
 ** journal submission as application
 ** application programs
@@ -81,24 +83,42 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** fix multilingual abstracts
    1. The main language of an exposition should be displayed in the metadata page.
    2. The abstract displayed in the Navigation bar abstract box should be the same as the language of the exposition, and there should be a dropdown to switch between languages (if translations are available).
-** make downloading big exports more fail safe: big expositions cause timeouts, like https://www.researchcatalogue.net/view/568007/568008 
-** when user uploads a video with a problematic resolution, show user hint what would work.
-** add grouping tags for users within portal user list (for organising)
-** publication tags for exposition, to separate it from keywords
-** merge keywords of expositions and media repo
-** make the media repo github repository public (clean up old state first)
-** duplicate page command within editors (instead of copy paste tools)
-** work migration to media repo set
-** fix "add all" button in collaboration message dialog
-** collaboration notifications removed from messages, should be prompt or notification. State should be live from the current state
-** picture tool should use tool default instead of intrensic size 
-** duplicate accounts (automatic detection)
-** collaboration, finding the right person if you only have an email.
-** add "published by" to articles on the frontpage, published by JAR for example.
-** send email to NTNU admin when FEIDE student has logged in first time, creating a new account
-** media url's in text-based editor, not always translated to live url (https://www.re catalogue.net/text-editor/simple-media-resource?research=547070&simple-media=945677)
-** snapshot stored when admin changes revision state from "in revision" -> "in review"
-** add trashcan button for comments on pages that can be seen by the commenter.
+** downloading big exports  
+   more fail safe: big expositions cause timeouts, like https://www.researchcatalogue.net/view/568007/568008
+** problematic resolution
+   zencoder: When uploading a video format that is not supported, show user hint what would work.
+** user grouping tags
+   for users within portal user list (for organising)
+** publication tags for expositions
+   to separate it from keywords, archive organisation, similar to current reviewing tags.
+** merge keywords
+   of expositions and media repo
+** media repo github repository public 
+   (clean up old state first)
+** duplicate page 
+   command within editors (instead of copy paste tools)
+** work migration 
+   to media repo set
+** fix "add all" 
+   button in collaboration message dialog
+** collaboration invite as live state 
+   removed from messages, should be prompt or notification. State should be live from the current state
+** picture tool  
+   When dragging from simple media: should use tool default instead of intrensic size
+** duplicate accounts 
+   (automatic detection)
+** Collaboration search
+   finding the right person if you only have an email.
+** Frontpage "published by" 
+   to articles on the frontpage, published by JAR for example.
+** send email to NTNU admin 
+   when FEIDE student has logged in first time, creating a new account
+** media url's 
+   Reproduce? in text-based editor, not always translated to live url (https://www.researchcatalogue.net/text-editor/simple-media-resource?research=547070&simple-media=945677)
+** snapshot stored when admin changes revision state
+   from "in revision" -> "in review" (currenlty only happens when the author does it) 
+** comments trashcan 
+   for comments on pages that can be seen by the commenter.
 ** dates of expositions: 
 *** remove free "date" field. 
 *** remove add automatic creation date
@@ -107,10 +127,13 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** can we allow this role without needing them to be portal admins
 *** list of objects of which they are editors
 ** graphical editor
-*** pixel by pixel movement of tools with arrow keys (and pixel number display)
-*** linking to a tool instead of a position
+*** pixel by pixel 
+    movement of tools with arrow keys (and pixel number display)
+*** linking to a tool 
+    instead of a position ()
 *** refresh overview when a tool was deleted
-*** alignment
+*** alignment fix
+    currently still a bit weird
 *** adjustments of margins for position links on the right side of the weave-some links currently 'bump' into borders, displaying the wrong position
 *** group selection (lasso / box selection)
 *** group locking (moving constallation)
