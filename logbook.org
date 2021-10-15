@@ -55,6 +55,8 @@ and lists ideas, features, bugs and problems.
 how to make it easier within education to track an exposition and prevent students from making new ones?
 ** different versions of an exposition
 that are somehow linked (show that something is just a newer version of an older exposition)
+** accessibility
+   alt-text for all visual tools
 ** internal portal stats
 Portal admins can view how many "expositions in progress" there are, see who is editing something.
 ** reviewing menu
