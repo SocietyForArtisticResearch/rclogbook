@@ -92,6 +92,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** user grouping tags
    for users within portal user list (for organising)
 ** publication tags for expositions
+   To have a better way to display educational outcomes, ongoing groupings of research.
    to separate it from keywords, archive organisation, similar to current reviewing tags.
 ** merge keywords
    of expositions and media repo
