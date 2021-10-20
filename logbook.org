@@ -167,7 +167,8 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** Adding a page, not showing up in Table of Contents, RC should ask when create page.
 ** PDF tool : Preview / PDF fields are confusing users
 ** Audio tool should not be an empty box, but communicate: "Audio tool: filename"
-** Clicking tool should not open defaults 
+** Clicking tool should not open defaults
+**** Discussion: How to open them? Menu options? Double-click and 2nd button click are not preferred.
 ** copy media from one expo to another causes clones/mess
 ** What is maximum number of tools that can be copy-pasted
 ** CSS: table border-collapse is default in editor, but not in rendered exposition.
