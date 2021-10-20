@@ -126,6 +126,8 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** editor role 
 *** can we allow this role without needing them to be portal admins
 *** list of objects of which they are editors
+*** Adding editor to exposition creates an accept/decline invite which is unnecessary 20.10.2021th
+*** Editors should see their expositions in portal review page? Alternatively some actions should be doable on My Profile page where the expositions are visible 20.10.2021th
 ** graphical editor
 *** pixel by pixel 
     movement of tools with arrow keys (and pixel number display)
