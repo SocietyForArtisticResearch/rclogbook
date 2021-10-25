@@ -9,6 +9,8 @@
 This file contains information on the current state of RC developments
 and lists ideas, features, bugs and problems.
 
+
+
 * In development
 ** Graphical editor: undo button and better versioning of exposition content :requested:
 ** Merging of text-based and graphical editors                  :in_progress:
@@ -128,6 +130,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** Adding editor to exposition creates an accept/decline invite which is unnecessary 20.10.2021th
 *** Editors should see their expositions in portal review page? Alternatively some actions should be doable on My Profile page where the expositions are visible 20.10.2021th
 ** graphical editor
+*** footnote should always show it's borders or the grid
 *** pixel by pixel 
     movement of tools with arrow keys (and pixel number display)
 *** linking to a tool 
@@ -150,6 +153,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** {media} tag should be embedded in newlines for proper parsing of markdown paragraphs 
 *** we need two rendered html versions, one for public preview not displaying comments and one for editing (with comments)
 *** footnotes
+
 *** singled shared model for both editors
 *** "portable footnotes" : footnotes as exposition "snippets" that can be organised in the Repo and used between different expositions and weaves.
 *** one list for the entire exposition
