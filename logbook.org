@@ -104,7 +104,6 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** collaboration invite as live state 
    removed from messages, should be prompt or notification. State should be live from the current state
 ** picture tool  
-   When dragging from simple media: should use tool default instead of intrensic size
 ** duplicate accounts 
    (automatic detection)
 ** Collaboration search
@@ -160,7 +159,6 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Problems
 
-** front page, abstracts cropped to elipses.
 ** Empty tools when canceling tool dialogue
 ** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
 ** When user hits a "auth required" they do not return to the same page
@@ -186,7 +184,6 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** background color of text-based editor should not change when body background-color is set (connected to margin issue)
 ** If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.
 ** Footnotes can be copied from other expositions, which will result in dead links if the original exposition is made private
-** dragging from media list creates tool with media size (not tool defaults)
 ** If footnote is copied from exposition to another, it can cause permission problems (dead x's). We forbid it or support it.
 ** ?? Footnote issue -> if a label with text across two lines/paragraphs, creating a footnote with all highlighted seems to create two footnotes with different ID. I didn’t test this further, but seems odd.
 ** If an exposition is unpublished and then republished, it cannot be reviewed (reviewer sees an error when they try to view it)
@@ -203,6 +200,9 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 
 * Reported Problems
+
+** Front page, abstracts should be cropped to ellipses.
+** When dragging from simple media: should use tool default instead of intrinsic size
 ** front page - cycle through columns doesn't work (other columns update as well)
 
 
