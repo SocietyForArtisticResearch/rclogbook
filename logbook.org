@@ -9,6 +9,8 @@
 This file contains information on the current state of RC developments
 and lists ideas, features, bugs and problems.
 
+
+
 * In development
 ** Graphical editor: undo button and better versioning of exposition content :requested:
 ** Merging of text-based and graphical editors                  :in_progress:
@@ -107,7 +109,6 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** collaboration invite as live state 
    removed from messages, should be prompt or notification. State should be live from the current state
 ** picture tool  
-   When dragging from simple media: should use tool default instead of intrensic size
 ** duplicate accounts 
    (automatic detection)
 ** Collaboration search
@@ -129,7 +130,10 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** editor role 
 *** can we allow this role without needing them to be portal admins
 *** list of objects of which they are editors
+*** Adding editor to exposition creates an accept/decline invite which is unnecessary 20.10.2021th
+*** Editors should see their expositions in portal review page? Alternatively some actions should be doable on My Profile page where the expositions are visible 20.10.2021th
 ** graphical editor
+*** footnote should always show it's borders or the grid
 *** pixel by pixel 
     movement of tools with arrow keys (and pixel number display)
 *** linking to a tool 
@@ -155,6 +159,7 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 *** {media} tag should be embedded in newlines for proper parsing of markdown paragraphs 
 *** we need two rendered html versions, one for public preview not displaying comments and one for editing (with comments)
 *** footnotes
+
 *** singled shared model for both editors
 *** "portable footnotes" : footnotes as exposition "snippets" that can be organised in the Repo and used between different expositions and weaves.
 *** one list for the entire exposition
@@ -164,14 +169,14 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 
 * Problems
 
-** front page, abstracts cropped to elipses.
 ** Empty tools when canceling tool dialogue
 ** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
 ** When user hits a "auth required" they do not return to the same page
 ** Adding a page, not showing up in Table of Contents, RC should ask when create page.
 ** PDF tool : Preview / PDF fields are confusing users
 ** Audio tool should not be an empty box, but communicate: "Audio tool: filename"
-** Clicking tool should not open defaults 
+** Clicking tool should not open defaults
+**** Discussion: How to open them? Menu options? Double-click and 2nd button click are not preferred.
 ** copy media from one expo to another causes clones/mess
 ** What is maximum number of tools that can be copy-pasted
 ** CSS: table border-collapse is default in editor, but not in rendered exposition.
@@ -189,7 +194,6 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 ** background color of text-based editor should not change when body background-color is set (connected to margin issue)
 ** If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.
 ** Footnotes can be copied from other expositions, which will result in dead links if the original exposition is made private
-** dragging from media list creates tool with media size (not tool defaults)
 ** If footnote is copied from exposition to another, it can cause permission problems (dead x's). We forbid it or support it.
 ** ?? Footnote issue -> if a label with text across two lines/paragraphs, creating a footnote with all highlighted seems to create two footnotes with different ID. I didn’t test this further, but seems odd.
 ** If an exposition is unpublished and then republished, it cannot be reviewed (reviewer sees an error when they try to view it)
@@ -206,6 +210,9 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 
 
 * Reported Problems
+
+** Front page, abstracts should be cropped to ellipses.
+** When dragging from simple media: should use tool default instead of intrinsic size
 ** front page - cycle through columns doesn't work (other columns update as well)
 
 
