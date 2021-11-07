@@ -138,6 +138,9 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** alignment fix
     currently still a bit weird
 *** adjustments of margins for position links on the right side of the weave-some links currently 'bump' into borders, displaying the wrong position
+*** position link
+add a button that directly copies current position to clipboard, 
+in hyperlink menu, allow selecting a page/tool within the existing structure
 *** group selection (lasso / box selection)
 *** group locking (moving constallation)
 *** prototype tool/template
@@ -161,7 +164,6 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Problems
 
-** front page - cycle through columns doesn't work (other columns update as well)
 ** front page, abstracts cropped to elipses.
 ** Empty tools when canceling tool dialogue
 ** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
@@ -201,6 +203,10 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041 
 ** Import as pdf should not be allowed
 ** Should videos be exported as well when export as epub in the text editor? Now they are not exported
+
+
+* Reported Problems
+** front page - cycle through columns doesn't work (other columns update as well)
 
 
 * Releases
