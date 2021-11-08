@@ -201,6 +201,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041 
 ** Import as pdf should not be allowed
 ** Should videos be exported as well when export as epub in the text editor? Now they are not exported
+** Graphical/Block editor sidebar collapse status should be stored (Refresh always brings it back) 8.11.2021th
 
 
 * Reported Problems
