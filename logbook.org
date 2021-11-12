@@ -164,6 +164,8 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 * Problems
 
 ** Empty tools when canceling tool dialogue
+** Autoplay in slideshow triggers "autoplay" message each slide, even if autoplay is allowed:
+   https://www.researchcatalogue.net/view/41240/41241
 ** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
 ** When user hits a "auth required" they do not return to the same page
 ** Adding a page, not showing up in Table of Contents, RC should ask when create page.
