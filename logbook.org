@@ -152,13 +152,13 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** inline comments {<<>>}
 *** {media} tag should be embedded in newlines for proper parsing of markdown paragraphs 
 *** we need two rendered html versions, one for public preview not displaying comments and one for editing (with comments)
-*** footnotes
-
+** footnotes
 *** singled shared model for both editors
 *** "portable footnotes" : footnotes as exposition "snippets" that can be organised in the Repo and used between different expositions and weaves.
 *** one list for the entire exposition
 *** type of footnotes (references etc)
 *** footnote edit page
+*** have a user default styling for footnotes (for example shadow is now default but this cannot be changed).
 *** reference counting, footnotes need to know where they are used
 
 * Problems
