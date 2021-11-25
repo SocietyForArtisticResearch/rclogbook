@@ -133,8 +133,6 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 *** footnote should always show it's borders or the grid
 *** pixel by pixel 
     movement of tools with arrow keys (and pixel number display)
-*** linking to a tool 
-    instead of a position ()
 *** refresh overview when a tool was deleted
 *** alignment fix
     currently still a bit weird
@@ -163,16 +161,18 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Problems
 
-** Empty tools when canceling tool dialogue
+** Tools
+*** Clicking tool should not open defaults
+**** Discussion: How to open them? Menu options? Double-click and 2nd button click are not preferred.
+*** Empty tools when canceling tool dialogue
+*** Audio tool should not be an empty box, but communicate: "Audio tool: filename"
+*** PDF tool : Preview / PDF fields are confusing users
+*** Video tool / Video embed user awareness
 ** Autoplay in slideshow triggers "autoplay" message each slide, even if autoplay is allowed:
    https://www.researchcatalogue.net/view/41240/41241
 ** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
 ** When user hits a "auth required" they do not return to the same page
 ** Adding a page, not showing up in Table of Contents, RC should ask when create page.
-** PDF tool : Preview / PDF fields are confusing users
-** Audio tool should not be an empty box, but communicate: "Audio tool: filename"
-** Clicking tool should not open defaults
-**** Discussion: How to open them? Menu options? Double-click and 2nd button click are not preferred.
 ** copy media from one expo to another causes clones/mess
 ** What is maximum number of tools that can be copy-pasted
 ** CSS: table border-collapse is default in editor, but not in rendered exposition.
@@ -186,7 +186,6 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 **** Notes list
 **** Private note
 ** No duplicate names for expositions
-** Video tool / Video embed user awareness
 ** background color of text-based editor should not change when body background-color is set (connected to margin issue)
 ** If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.
 ** Footnotes can be copied from other expositions, which will result in dead links if the original exposition is made private
@@ -208,12 +207,14 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 
 * Reported Problems
 
-** Front page, abstracts should be cropped to ellipses.
-** When dragging from simple media: should use tool default instead of intrinsic size
-** front page - cycle through columns doesn't work (other columns update as well)
-
 
 * Releases
+
+** DONE Front page, abstracts should be cropped to ellipses.
+** DONE When dragging from simple media: should use tool default instead of intrinsic size
+** DONE front page - cycle through columns doesn't work (other columns update as well)
+** DONE Graphic Editor / 1D editor, linking to a tool,instead of a position
+
 ** DONE HTML tool show's page's background color (good), but even as the tool itself has another background color (bad).
 
 
