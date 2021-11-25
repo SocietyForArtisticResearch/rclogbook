@@ -181,15 +181,16 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 ** Collaboration tab needs explanation text about what is what.          :UI:
 ** Supervisor permissions behave weird on publication etc. How 
 ** Notes
-**** No quick way for supervisor to delete/manage all their notes. 
-**** Notes list
-**** Private note
+- No quick way for supervisor to delete/manage all their notes. 
+- Notes list
+- Private note
 ** No duplicate names for expositions
 ** background color of text-based editor should not change when body background-color is set (connected to margin issue)
-** If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.
-** Footnotes can be copied from other expositions, which will result in dead links if the original exposition is made private
-** If footnote is copied from exposition to another, it can cause permission problems (dead x's). We forbid it or support it.
-** ?? Footnote issue -> if a label with text across two lines/paragraphs, creating a footnote with all highlighted seems to create two footnotes with different ID. I didn’t test this further, but seems odd.
+** Footnotes
+- If a footnote reference is copied from one page to the next, the content of the footnote remains in the old page.
+- Footnotes can be copied from other expositions, which will result in dead links if the original exposition is made private
+- If footnote is copied from exposition to another, it can cause permission problems (dead x's). We forbid it or support it.
+- ?? Footnote issue -> if a label with text across two lines/paragraphs, creating a footnote with all highlighted seems to create two footnotes with different ID. I didn’t test this further, but seems odd.
 ** If an exposition is unpublished and then republished, it cannot be reviewed (reviewer sees an error when they try to view it)
 ** Supervised expositions show up in two places: Research Exposition (collaborated) and Research Expositions.
 ** Video playback in HTML expositions breaks down on mobile.
