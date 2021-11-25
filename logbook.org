@@ -162,12 +162,11 @@ save vs. submit, inform/warn people when deadline is close, message on save that
 * Problems
 
 ** Tools
-*** Clicking tool should not open defaults
-**** Discussion: How to open them? Menu options? Double-click and 2nd button click are not preferred.
-*** Empty tools when canceling tool dialogue
-*** Audio tool should not be an empty box, but communicate: "Audio tool: filename"
-*** PDF tool : Preview / PDF fields are confusing users
-*** Video tool / Video embed user awareness
+   Clicking tool should not open defaults (How to open them? Menu options?)
+   Empty tools when canceling tool dialogue
+   Audio tool should not be an empty box, but communicate: "Audio tool: filename"
+   PDF tool : Preview / PDF fields are confusing users
+   Video tool / Video embed user awareness
 ** Autoplay in slideshow triggers "autoplay" message each slide, even if autoplay is allowed:
    https://www.researchcatalogue.net/view/41240/41241
 ** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
