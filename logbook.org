@@ -177,7 +177,6 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 ** Autoplay in slideshow triggers "autoplay" message each slide, even if autoplay is allowed:
    https://www.researchcatalogue.net/view/41240/41241
 ** Reviewers added by the reviewer button in Users will not always be added (if they are existing users)
-** When user hits a "auth required" they do not return to the same page
 ** Adding a page, not showing up in Table of Contents, RC should ask when create page.
 ** copy media from one expo to another causes clones/mess
 ** What is maximum number of tools that can be copy-pasted
@@ -217,6 +216,7 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 
 * Releases
 
+** DONE When user hits a "auth required" they do not return to the same page
 ** DONE Front page, abstracts should be cropped to ellipses.
 ** DONE When dragging from simple media: should use tool default instead of intrinsic size
 ** DONE front page - cycle through columns doesn't work (other columns update as well)
