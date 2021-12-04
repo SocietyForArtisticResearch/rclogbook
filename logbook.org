@@ -32,6 +32,7 @@ and lists ideas, features, bugs and problems.
 
 * Ideas
 ** Search :roadmap: 
+*** navigation bar redesign, convert to responsive, better display of all authors
 *** full text search
 *** keyword search and list
 *** keyword pages, follow and show authors that use the keywords.
@@ -42,7 +43,7 @@ and lists ideas, features, bugs and problems.
 *** search box in navigation bar, so you can search in a single exposition. Future: expositions as searchable databases.
 *** make keywords mandatory on publication
 ** Profile page                                                     :roadmap:
-*** better display of objects without image, "tumblr" page
+*** better display of objects without image, "tumblr" page, sets should showcase media in attractive way.
 *** state share status clearly (no gray color)
 *** state display abstract on/off setting
 *** state show keywords on the object in the box
