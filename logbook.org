@@ -48,7 +48,9 @@ and lists ideas, features, bugs and problems.
 *** state display abstract on/off setting
 *** state show keywords on the object in the box
 *** state easier group management: tagging for profile organization / change group button for item
-*** state collapse all groups (how ?)
+*** state collapse all groups (how ?), expand all groups
+*** change the group of items without drag and drop
+*** list-like view.
 *** state cleanup of CV details edit profile
 *** state customizable display of external publications (easy way)
 *** state see list of collab/co-autherships of user (ex. academia.org)
