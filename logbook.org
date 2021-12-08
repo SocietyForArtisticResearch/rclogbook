@@ -31,6 +31,7 @@ and lists ideas, features, bugs and problems.
 
 
 * Ideas
+*** front page: add description of institutional portals
 ** Search :roadmap: 
 *** navigation bar redesign, convert to responsive, better display of all authors
 *** full text search
