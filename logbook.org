@@ -218,6 +218,8 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 
 * Reported Problems
 
+** possible weirdness with sidebar, maybe to do with zoom: the bin did not appear (on two separate browsers/computers)
+*** tero: once the 'pages' button did not appear for me
 
 * Releases
 
