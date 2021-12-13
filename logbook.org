@@ -43,6 +43,7 @@ and lists ideas, features, bugs and problems.
 *** adding time/date filter in advanced search.
 *** search box in navigation bar, so you can search in a single exposition. Future: expositions as searchable databases.
 *** make keywords mandatory on publication
+*** License as machine readable data embedded ?
 ** Profile page                                                     :roadmap:
 *** better display of objects without image, "tumblr" page, sets should showcase media in attractive way.
 *** state share status clearly (no gray color)
