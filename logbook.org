@@ -85,6 +85,7 @@ Portal admins can view how many "expositions in progress" there are, see who is 
    (currently, uses pretty low bitrate, filters out everything above 15k)
 ** markdown in text/html tools
 ** Exposition Validation (through api) 
+*** external links (youtube, vimeo), should trigger warning.
 *** text tools size warning, current lack of limits stimulates risky designs
 ** exposition metadata export for journals (editor/KC API)
 ** journal submission as application
