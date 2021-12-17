@@ -25,40 +25,39 @@ and lists ideas, features, bugs and problems.
 ** Media usage                                                      :on_hold:
 **** How much media do users have?
 **** Is it used in any exposition or made public?
+*** full text search :luc:
 
-**** Ordering of portals by creation data / or alphabetic
-**** Accessible color schemes. https://toolness.github.io/accessible-color-matrix/
 
 
 * Ideas
 *** front page: add description of institutional portals
 ** Search :roadmap: 
 *** navigation bar redesign, convert to responsive, better display of all authors
-*** full text search
+
 *** keyword search and list
 *** keyword pages, follow and show authors that use the keywords.
 *** feeds that are integrated with front page + infinite scroll + organised favourates, personal notes with it
 *** sortable search results
 *** searchable inbox
-*** adding time/date filter in advanced search.
+*** adding time/date filter in advanced search. :casper:
 *** search box in navigation bar, so you can search in a single exposition. Future: expositions as searchable databases.
 *** make keywords mandatory on publication
 *** License as machine readable data embedded ?
 ** Profile page                                                     :roadmap:
 *** better display of objects without image, "tumblr" page, sets should showcase media in attractive way.
-*** state share status clearly (no gray color)
-*** state display abstract on/off setting
-*** state show keywords on the object in the box
-*** state easier group management: tagging for profile organization / change group button for item
-*** state collapse all groups (how ?), expand all groups
+*** share status clearly (no gray color)
+*** display abstract on/off setting
+*** show keywords on the object in the box
+*** easier group management: tagging for profile organization / change group button for item
+*** collapse all groups (how ?), expand all groups
 *** change the group of items without drag and drop
 *** list-like view.
-*** state cleanup of CV details edit profile
-*** state customizable display of external publications (easy way)
-*** state see list of collab/co-autherships of user (ex. academia.org)
-*** state see own followers
-*** state follow institutions
-*** state portal profile pages 
+*** cleanup of CV details edit profile
+*** customizable display of external publications (easy way)
+*** see list of collab/co-autherships of user (ex. academia.org)
+*** see own followers
+*** follow institutions
+*** portal profile pages 
 ** managed expositions: 
 how to make it easier within education to track an exposition and prevent students from making new ones?
 ** different versions of an exposition
@@ -156,6 +155,9 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 *** prototype tool/template
 *** copy-paste style tab settings
 *** Sortable list view of expositions on "Recent activity" "Recent publications", "My Profile" and other locations in RC.
+
+**** Ordering of portals by creation data / or alphabetic
+**** Accessible color schemes. https://toolness.github.io/accessible-color-matrix/
 
 ** elm text editor features:
 *** elm text editor based on https://github.com/SidneyNemzer/elm-text-editor - https://jxxcarlson.github.io/app/text-editor/index.html
