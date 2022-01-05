@@ -170,6 +170,9 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 *** have a user default styling for footnotes (for example shadow is now default but this cannot be changed).
 *** reference counting, footnotes need to know where they are used
 ** Video tutorials: hire somebody to voice over new tutorials (more proffesional)
+** Footnotes/popovers
+*** the possibility to re-size the popover by the user [re-sizeable]
+*** the possibility to drag the popover over the screen [draggable]
 
 * Problems
 
