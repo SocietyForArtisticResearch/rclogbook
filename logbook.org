@@ -220,7 +220,6 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 ** Menu of expositions in profile and of tools in workspace does not work in Windows 10, version 19041 
 ** Import as pdf should not be allowed
 ** Should videos be exported as well when export as epub in the text editor? Now they are not exported
-** Graphical/Block editor sidebar collapse status should be stored (Refresh always brings it back) 8.11.2021th
 
 
 * Reported Problems
@@ -231,6 +230,8 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 * Releases
 
 ** DONE
+
+** Graphical/Block editor sidebar collapse status should be stored (Refresh always brings it back) 8.11.2021th
 ** reviewing menu :tero:
 *** Order of items (add note should be first option)
 *** Add-note keyboard shortcut (ctrl+shift+n)
