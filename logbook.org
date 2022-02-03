@@ -92,6 +92,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
    1. Authors should be able to select a main language for their abstract and title.
    2. The main language of an exposition should be displayed in the metadata page.
    3. The abstract displayed in the Navigation bar abstract box should be the same as the language of the exposition, and there should be a dropdown to switch between languages (if translations are available).
+** In Metadata there can be an impossible state: published and private.
 ** downloading big exports  
    more fail safe: big expositions cause timeouts, like https://www.researchcatalogue.net/view/568007/568008
 ** problematic resolution
