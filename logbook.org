@@ -15,17 +15,17 @@ and lists ideas, features, bugs and problems.
 * In development
 ** Graphical editor: undo button and better versioning of exposition content :requested:
 ** Merging of text-based and graphical editors                  :in_progress:
-    - allows authors to define both a graphical 2d layout and a responsive version of the same page content
-    - the responsive version of an exposition is the same as text based, now understood as a linear ordering of tools
-    - mixing the two formats within one exposition
-    - fascilitate migrate pages between the two formats
-    - the author decides which layouts are available to the reader
+    - DONE allows authors to define both a graphical 2d layout and a responsive version of the same page content 
+    - TODO the responsive version of an exposition is the same as textbased, now understood as a linear ordering of tools 
+    - DONE mixing the two formats within one exposition
+    - TODO fascilitate migrate pages between the two formats
+    - TODO the author decides which layouts are available to the reader
 ** Google fonts (safe fonts)                                     :in_progess:
 ** Archive expositions                                            :requested:
 ** Media usage                                                      :on_hold:
 **** How much media do users have?
 **** Is it used in any exposition or made public?
-*** full text search :luc:
+*** full text search :requested:
 
 
 
@@ -33,7 +33,6 @@ and lists ideas, features, bugs and problems.
 *** front page: add description of institutional portals
 ** Search :roadmap: 
 *** navigation bar redesign, convert to responsive, better display of all authors
-
 *** keyword search and list
 *** keyword pages, follow and show authors that use the keywords.
 *** feeds that are integrated with front page + infinite scroll + organised favourates, personal notes with it
@@ -47,7 +46,7 @@ and lists ideas, features, bugs and problems.
 *** better display of objects without image, "tumblr" page, sets should showcase media in attractive way.
 *** share status clearly (no gray color)
 *** display abstract on/off setting
-*** show keywords on the object in the box
+*** show keywords on the object in the box > when clicked, link to keyword pages
 *** easier group management: tagging for profile organization / change group button for item
 *** collapse all groups (how ?), expand all groups
 *** change the group of items without drag and drop
