@@ -122,6 +122,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
    to articles on the frontpage, published by JAR for example.
 ** send email to NTNU admin 
    when FEIDE student has logged in first time, creating a new account
+** When a new users registers search for extremely similar users, and ask them to contact support. We cannot show the email since that would be a privacy leak.
 ** media url's 
    Reproduce? in text-based editor, not always translated to live url (https://www.researchcatalogue.net/text-editor/simple-media-resource?research=547070&simple-media=945677)
 ** snapshot stored when admin changes revision state
