@@ -160,6 +160,7 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 
 ** elm text editor features:
 *** remove inline markdown chars ** ** from TOC entries.
+*** Markdown : Can we filter for incomplete Bold Italics using a parser ?
 *** elm text editor based on https://github.com/SidneyNemzer/elm-text-editor - https://jxxcarlson.github.io/app/text-editor/index.html
 *** comments/notes
 *** footnote like comments {^1}
