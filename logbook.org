@@ -187,6 +187,7 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 - Empty tools when canceling tool dialogue
 - Audio tool should not be an empty box, but communicate: "Audio tool: filename"
 - PDF tool : Preview / PDF fields are confusing users
+- PDF tool : can we link to a page ?
 - Video tool / Video embed user awareness
 ** Autoplay in slideshow triggers "autoplay" message each slide, even if autoplay is allowed:
    https://www.researchcatalogue.net/view/41240/41241
