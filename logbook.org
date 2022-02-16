@@ -55,6 +55,7 @@ and lists ideas, features, bugs and problems.
 *** customizable display of external publications (easy way)
 *** see list of collab/co-autherships of user (ex. academia.org)
 *** see own followers
+*** See and handle what you follow (more organized)
 *** follow institutions
 *** portal profile pages 
 ** managed expositions: 
