@@ -106,6 +106,7 @@ save vs. submit, inform/warn people when deadline is close, message on save that
    of expositions and media repo
 ** media repo github repository public 
    (clean up old state first)
+** media repo, date selector is a bit too strict, can be hard to use on mac os Firefox, invalid date immediatly resets.
 ** duplicate page 
    command within editors (instead of copy paste tools)
 ** work migration 
