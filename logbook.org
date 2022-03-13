@@ -236,6 +236,7 @@ in hyperlink menu, allow selecting a page/tool within the existing structure
 
 ** DONE
 
+** block editor: if tool is copied from graphical page, the margins are included (causing margin issues).
 ** Graphical/Block editor sidebar collapse status should be stored (Refresh always brings it back) 8.11.2021th
 ** reviewing menu :tero:
 *** Order of items (add note should be first option)
