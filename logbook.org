@@ -30,6 +30,8 @@ and lists ideas, features, bugs and problems.
 
 
 * Ideas
+** PDF export link on metadata page for repositories 
+** DOI should maybe point to metadata instead of first page ?
 *** Make hyperlinking easier. Include a button to copy the link in the page overview. In the hyperlink dialog, include a dropdown of available pages (see wordpress)
 *** front page: add description of institutional portals 
 ** Search :roadmap: 
