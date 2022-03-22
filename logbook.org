@@ -30,6 +30,7 @@ and lists ideas, features, bugs and problems.
 
 
 * Ideas
+** Rejecting an exposition from a journal portal, should create an archived version that the portal can refer to in audits and the like. It will be shown on a special section on the authors' profile "Archived".
 ** PDF export link on metadata page for repositories 
 ** DOI should maybe point to metadata instead of first page ?
 *** Make hyperlinking easier. Include a button to copy the link in the page overview. In the hyperlink dialog, include a dropdown of available pages (see wordpress)
@@ -293,9 +294,10 @@ https://www.researchcatalogue.net/editor?research=861875&weave=944937
 ** DONE Problems with svg files in image tool, they are not properly scaled in edit -> options -> position -> size
 ** [CASPER] The SARA unsubscribe menu accessed from the link of the announcement does not work
 ** DONE Preview of text-based exposition does not update quickly enough
-** Archiving function
+** DONE Archiving function
 - this is an alternative form of publication where it is fixed, but only visible to portal admins. 
 - probably needs some extra meta-data like department / context in which the archived exposition was produced.
+
 ** versions visible for admins - for later reference/compare changes 
 ** DONE Research Video Integration
 ** <2019-12-14 Sat> Text-based editor version 2.1.1
